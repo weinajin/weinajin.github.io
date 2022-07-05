@@ -1,11 +1,10 @@
 ---
 layout: page
-title: "Guidelines and evaluation for clinical explainable AI"
+title: Guidelines and evaluation for clinical explainable AI
 description: "How to design and evaluate explainable AI in real-world high-stakes domains?
 img: assets/img/graphicabstract_XAI_guideline.jpg
 importance: 1
 category: research
-
 ---
 
 
