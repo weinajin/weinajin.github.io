@@ -36,6 +36,6 @@ To participate in the survey, you must:
 
 For more information, please email the study researcher Weina: weinaj at sfu dot ca 
 
-[Certificate of Ethical Approval](/files/brain_ai/Certificate of Ethical Approval for Harmonized Minimal Risk Behavioural Study.pdf)
+[Certificate of Ethical Approval](/assets/pdf/brain_ai/Certificate of Ethical Approval for Harmonized Minimal Risk Behavioural Study.pdf)
 
 

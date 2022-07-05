@@ -16,7 +16,7 @@ Xiaoxiao Li, Department of Electrical and Computer Engineering, The University o
 
 Ghassan Hamarneh, Medical Imaging Analysis Lab, School of Computing Science, Simon Fraser University
 
-![Evaluating_explanation](/images/graphic abstract_XAI_guideline.jpg)
+![Evaluating_explanation](/assets/img/graphic abstract_XAI_guideline.jpg)
 
 <a href="https://arxiv.org/abs/2202.10553" target="_blank">Paper</a>
 
@@ -32,7 +32,7 @@ A precursor of this work is accepted by AAAI 22 Social Impact Track:
 
 # Evaluating Explainable AI on a Multi-Modal Medical Imaging Task: Can Existing Algorithms Fulfill Clinical Requirements?
 
-[![Evaluating_explanation](/images/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.jpg)](/files/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.pdf)
+[![Evaluating_explanation](/assets/img/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.jpg)](/assets/pdf/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.pdf)
 
 <a href="https://arxiv.org/abs/2107.05047" target="_blank">Paper</a>, <a href="https://youtu.be/J-ceZ20cBJk" target="_blank">Video paper presentation</a>, <a href="https://docs.google.com/presentation/d/1CfhnonnQl7ZD6yCCPqW37SEuC2dFrdPV_06R4jDyGsA/edit?usp=sharing" target="_blank">Slides</a>, [Poster](/files/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.pdf)
 

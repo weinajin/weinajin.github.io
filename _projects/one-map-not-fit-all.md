@@ -21,7 +21,7 @@ Ghassan Hamarneh, Medical Imaging Analysis Lab, School of Computing Science, Sim
 - The full paper is in: [Guidelines and evaluation for clinical explainable AI](https://weina.me/clinical_xai_guideline)
 
 
-![Multi_modal_image_explanation](/images/poster_One Map Does Not Fit All_Evaluating Saliency Map Explanation on Multi-Modal Medical Images.png)
+![Multi_modal_image_explanation](/assets/img/poster_One Map Does Not Fit All_Evaluating Saliency Map Explanation on Multi-Modal Medical Images.png)
 
 
 
