@@ -1,7 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-06-28
 inline: true
 ---
 
-A simple inline announcement.
+Borealis AI Global Fellowship award, one out of ten fellows. 
+
+The Borealis AI 2021-2022 Fellowships: Inspiring Canada’s AI Research Talent
