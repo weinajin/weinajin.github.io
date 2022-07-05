@@ -1,0 +1,51 @@
+---
+layout: page
+title: "Guidelines and evaluation for clinical explainable AI"
+description: "How to design and evaluate explainable AI in real-world high-stakes domains?
+img: assets/img/graphicabstract_XAI_guideline.jpg
+importance: 1
+category: research
+
+---
+
+
+## Authors
+
+Weina Jin, Medical Imaging Analysis Lab, School of Computing Science, Simon Fraser University
+
+Xiaoxiao Li, Department of Electrical and Computer Engineering, The University of British Columbia
+
+Ghassan Hamarneh, Medical Imaging Analysis Lab, School of Computing Science, Simon Fraser University
+
+![Evaluating_explanation](/images/graphic abstract_XAI_guideline.jpg)
+
+<a href="https://arxiv.org/abs/2202.10553" target="_blank">Paper</a>
+
+* Clinical Explainable AI Guidelines supports XAI design and evaluation for clinical use.
+* Explanation form is chosen based on G1 Understandability and G2 Clinical relevance.
+* Explanation method is chosen based on G3 Truthfulness and G4 Informative plausibility.
+* Evaluations on two medical datasets showed existing heatmap methods met G1, partially met G2, but failed G3 and G4.
+* We propose a novel problem of multi-modal medical image explanation and its metrics.
+
+---
+
+A precursor of this work is accepted by AAAI 22 Social Impact Track:
+
+# Evaluating Explainable AI on a Multi-Modal Medical Imaging Task: Can Existing Algorithms Fulfill Clinical Requirements?
+
+[![Evaluating_explanation](/images/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.jpg)](/files/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.pdf)
+
+<a href="https://arxiv.org/abs/2107.05047" target="_blank">Paper</a>, <a href="https://youtu.be/J-ceZ20cBJk" target="_blank">Video paper presentation</a>, <a href="https://docs.google.com/presentation/d/1CfhnonnQl7ZD6yCCPqW37SEuC2dFrdPV_06R4jDyGsA/edit?usp=sharing" target="_blank">Slides</a>, [Poster](/files/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.pdf)
+
+The overarching problem is: how to design and evaluate explainable AI in real-world high-stakes domains. We propose a novel problem in the medical domain, multi-modal medical image explanation, and use it as an example to demonstrate our evaluation process that incorporates both technical and clinical requirements.
+
+Our evaluation is on the commonly used heatmap methods for end-user understandability. We cover both gradient and perturbation-based methods. 
+
+Based on the explanation goals in real-world critical tasks, we set two primary evaluation objectives on faithfulness and plausibility. Three evaluations on faithfulness show all the examined algorithms did not faithfully represent the AI model decision process at feature level. And plausibility evaluation results show that users’ assessment of how plausible explanations are, is not indicative for model decision quality. 
+
+Our systematic evaluation provides a roadmap and objectives for the design and evaluation of explainable AI in critical tasks. 
+
+---
+
+Link to the previous work-in-progress paper: [One Map Not Fit All](https://weina.me/one-map-not-fit-all.html).
+
