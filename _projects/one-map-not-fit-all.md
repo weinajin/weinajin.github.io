@@ -1,10 +1,9 @@
 ---
-title: "One Map Does Not Fit All: Evaluating Multi-Modal Medical Image Explanation"
-excerpt: "Evaluation on multi-modal medical image explanation.
-<br/><img src='/images/multimodal_xai.png'>"
-collection: projects
-permalink: /one-map-not-fit-all.html
-
+title: "One Map Does Not Fit All: Evaluating Multi-Modal Medical Image Explanation
+description: Evaluation on multi-modal medical image explanation.
+img: assets/img/multimodal_xai.jpg
+category: research
+importance: 2
 ---
 
 ## Authors

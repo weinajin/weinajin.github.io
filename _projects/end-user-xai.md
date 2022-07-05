@@ -1,9 +1,9 @@
 ---
-title: "EUCA: the End-User-Centered Explainable AI Prototyping Framework"
-excerpt: "A usability study to identify physicians’ needs and requirements of explainable artificial intelligence
-<br/><img src='/images/end_user_xai_cartoon.jpg'>"
-collection: projects
-permalink: /end-user-xai.html
+title: EUCA: the End-User-Centered Explainable AI Prototyping Framework
+description: A usability study to identify physicians’ needs and requirements of explainable artificial intelligence
+img: assets/img/end_user_xai_cartoon.jpg
+importance: 3
+category: research
 
 ---
 

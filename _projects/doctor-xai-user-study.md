@@ -1,10 +1,9 @@
 ---
-title: "Doctor AI study: understanding doctors' needs for explainable AI"
-excerpt: "A usability study to identify physicians’ needs and requirements of explainable artificial intelligence
-<br/><img src='/images/user_need_study.jpg'>"
-collection: projects
-permalink: /doctor-ai.html
-
+title: Doctor AI user study: understanding doctors' needs for explainable AI
+description: A usability study to identify physicians’ needs and requirements of explainable artificial intelligence
+img: assets/img/user_need_study.jpg
+importance: 5
+category: research
 ---
 
 Study Title:
