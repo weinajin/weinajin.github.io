@@ -211,7 +211,7 @@ scholar:
   last_name: Jin
   first_name: [Weina]
 
-  style: acm-siggraph
+  style: bmj
   locale: en
 
   source: /_bibliography/
