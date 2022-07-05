@@ -1,10 +1,9 @@
 ---
-title: "Brain AI study: assessing the clinical utility of AI and its explanation"
-excerpt: "A study to assess the clinical utility of artificial intelligence and explainable artificial intelligence on brain tumor classification tasks
-<br/><img src='/images/brain_ai.png'>"
-collection: projects
-permalink: /brain-ai.html
-
+title: Brain AI study: assessing the clinical utility of AI and its explanation
+description: A study to assess the clinical utility of artificial intelligence and explainable artificial intelligence on brain tumor classification tasks
+img: assets/img/brain_ai.png
+category: research
+importance: 3
 ---
 
 Study Title:
@@ -34,13 +33,8 @@ To participate in the survey, you must:
 - be a consultant neurosurgeon, radiologist, or neuro-radiologist
 - or a resident/fellow in neurosurgery, radiology, or neuro-radiology
 
-# [**Email the research team to participate!**](mailto:weinaj@sfu.ca?subject=Participate in the Brain AI Survey&body=Hi Weina, %0D%0AI would like to participate in the Brain AI Survey. Thank you! )
-
 For more information, please email the study researcher Weina: weinaj at sfu dot ca 
-
-[Participant's Consent Form](/files/brain_ai/[H20-03588]_consent.pdf)
 
 [Certificate of Ethical Approval](/files/brain_ai/Certificate of Ethical Approval for Harmonized Minimal Risk Behavioural Study.pdf)
 
-[Consent Form for Optional Interview Session](/files/brain_ai/[H20-03588] - Appendix E - consent_on_optional_interview_session.pdf)
 
