@@ -4,6 +4,7 @@ description: A study to assess the clinical utility of artificial intelligence a
 img: assets/img/brain_ai.png
 category: research
 importance: 4
+permalink: 
 ---
 
 Study Title:

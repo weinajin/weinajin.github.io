@@ -4,6 +4,8 @@ description: Evaluation on multi-modal medical image explanation.
 img: assets/img/multimodal_xai.jpg
 category: research
 importance: 2
+permalink: /one-map-not-fit-all.html
+
 ---
 
 ## Authors
