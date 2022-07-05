@@ -4,9 +4,9 @@ title: about
 permalink: /
 subtitle: 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  image_cicular: true # crops the image to make it circular
+  image_cicular: false # crops the image to make it circular
   address: >
     <p>Trying hard to make AI explainable to clinical users</p>
 
