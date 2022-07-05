@@ -19,7 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d5a2461-916a-43c7-a970-234fcb6ed8a7" name="Default Changelist" comment="" />
+    <list default="true" id="2d5a2461-916a-43c7-a970-234fcb6ed8a7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-01-23-time-life.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-01-23-time-life.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2014-01-25-magic.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-01-25-magic.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -56,7 +61,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656990103867</updated>
-      <workItem from="1656990109165" duration="21663000" />
+      <workItem from="1656990109165" duration="22742000" />
+      <workItem from="1657040876897" duration="193000" />
     </task>
     <servers />
   </component>
@@ -73,12 +79,17 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="436" y="206" width="818" height="668" key="find.popup" timestamp="1657038042468">
+    <state x="1217" y="-878" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1657039727902">
+      <screen x="0" y="-1415" width="2560" height="1415" />
+    </state>
+    <state x="1217" y="-878" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.875/0.-1415.2560.1415@0.-1415.2560.1415" timestamp="1657039727902" />
+    <state x="436" y="206" width="818" height="668" key="find.popup" timestamp="1657041058432">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="436" y="206" width="818" height="668" key="find.popup/0.25.1440.875/0.-1415.2560.1415@0.-1415.2560.1415" timestamp="1657038042468" />
+    <state x="436" y="206" width="818" height="668" key="find.popup/0.25.1440.875/0.-1415.2560.1415@0.-1415.2560.1415" timestamp="1657041058432" />
     <state x="436" y="206" width="818" height="668" key="find.popup/0.25.1440.875@0.25.1440.875" timestamp="1657025570844" />
   </component>
 </project>
