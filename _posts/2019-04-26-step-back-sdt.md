@@ -1,8 +1,9 @@
 ---
+layout: post
 title:  Understanding on happiness
 date:   2019-04-26 10:00:00
 comments: true
-excerpt: A practice on self-determination theory
+description: A practice on self-determination theory
 tags: research
 ---
 
