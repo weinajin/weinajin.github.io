@@ -1,4 +1,5 @@
 ---
+layout: page
 title:  A friendly introduction to Convolutional in CNN
 date:   2018-08-05 10:00:00
 comments: true

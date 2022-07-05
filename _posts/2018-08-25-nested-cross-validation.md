@@ -1,4 +1,5 @@
 ---
+layout: page
 title:  Nested cross validation explained
 date:   2018-08-25 17:00:00
 comments: true
