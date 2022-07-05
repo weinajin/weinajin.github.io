@@ -5,7 +5,7 @@ permalink: /projects/
 description: Research and side projects.
 nav: true
 nav_order: 2
-display_categories: [research, design]
+display_categories: [research, visual]
 horizontal: false
 ---
 

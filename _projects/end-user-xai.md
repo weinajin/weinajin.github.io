@@ -1,4 +1,5 @@
 ---
+layout: distill
 title: EUCA, the End-User-Centered Explainable AI Prototyping Framework
 description: A usability study to identify physicians’ needs and requirements of explainable artificial intelligence
 img: assets/img/end_user_xai_cartoon.jpg

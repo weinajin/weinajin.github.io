@@ -1,4 +1,5 @@
 ---
+layout: distill
 title: Doctor AI user study, understanding doctors' needs for explainable AI
 description: A usability study to identify physicians’ needs and requirements of explainable artificial intelligence
 img: assets/img/user_need_study.jpg

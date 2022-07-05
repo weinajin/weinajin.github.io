@@ -1,4 +1,5 @@
 ---
+layout: distill
 title: One Map Does Not Fit All - Evaluating Multi-Modal Medical Image Explanation
 description: Evaluation on multi-modal medical image explanation.
 img: assets/img/multimodal_xai.jpg

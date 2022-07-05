@@ -1,4 +1,5 @@
 ---
+layout: distill
 title: Brain AI study, assessing the clinical utility of AI and its explanation
 description: A study to assess the clinical utility of artificial intelligence and explainable artificial intelligence on brain tumor classification tasks
 img: assets/img/brain_ai.png
