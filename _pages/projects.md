@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Research and side projects.
+description: research projects + visual arts.
 nav: true
 nav_order: 2
 display_categories: [research, visual]

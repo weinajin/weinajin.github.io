@@ -1,7 +1,7 @@
 ---
 layout: distill
-title: One Map Does Not Fit All - Evaluating Multi-Modal Medical Image Explanation
-description: Evaluation on multi-modal medical image explanation.
+title: One Map Does Not Fit All
+description: Evaluating AI Explanation on Multi-Modal Medical Image Task
 img: assets/img/multimodal_xai.jpg
 category: research
 importance: 2
