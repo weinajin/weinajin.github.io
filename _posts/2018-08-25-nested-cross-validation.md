@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title:  Nested cross validation explained
 date:   2018-08-25 17:00:00
 comments: true
@@ -31,29 +31,29 @@ The algorithm is as follows (adapted from Hastie et. al [1] and [this post](http
 
 **The nested cross validation**
 
-1. Divide the dataset into $K$ cross-validation folds at random.
+1. Divide the dataset into $$K$$ cross-validation folds at random.
 
-2. For each fold $k=1,2,...,K$:  *outer loop for evaluation of the model with selected hyperparameter*
+2. For each fold $$k=1,2,...,K$$:  *outer loop for evaluation of the model with selected hyperparameter*
 
-    2.1 Let `test` be fold $k$
+    2.1 Let `test` be fold $$k$$
 
-    2.2 Let `trainval` be all the data except those in fold $k$
+    2.2 Let `trainval` be all the data except those in fold $$k$$
 
-    2.3 Randomly split `trainval` into $L$ folds
+    2.3 Randomly split `trainval` into $$L$$ folds
 
-    2.4 For each fold $l= 1,2,...L$: *inner loop for hyperparameter tuning*
+    2.4 For each fold $$l= 1,2,...L$$: *inner loop for hyperparameter tuning*
 
-      2.4.1 Let `val` be fold $l$
+      2.4.1 Let `val` be fold $$l$$
 
       2.4.2 Let `train` be all the data except those in `test` or `val`
 
       2.4.3 Train with each hyperparameter on `train`, and evaluate it on `val`. Keep track of the performance metrics
 
-    2.5 For each hyperparameter setting, calculate the average metrics score over the $L$ folds, and choose the best hyperparameter setting.
+    2.5 For each hyperparameter setting, calculate the average metrics score over the $$L$$ folds, and choose the best hyperparameter setting.
 
-    2.6 Train a model with the best hyperparameter on `trainval`. Evaluate its performance on `test` and save the score for fold $k$.
+    2.6 Train a model with the best hyperparameter on `trainval`. Evaluate its performance on `test` and save the score for fold $$k$$.
 
-3. Calculate the mean score over all $K$ folds, and report as the generalization error.
+3. Calculate the mean score over all $$K$$ folds, and report as the generalization error.
 
 
 
@@ -62,12 +62,12 @@ As for the implementation, [the scikit-learn documentation](http://scikit-learn.
 
 ### Q&A
 
-1. Can I apply the best hyperparameter selected in the first iteration of the outer fold, to build models for the remaining $K-1$ outer loop? i.e. to save the search of the best hyperparameter in the next $K-1 \times L \times M$ (where $M$ is the number of hyperparameter combinations, if use grid search).
+1. Can I apply the best hyperparameter selected in the first iteration of the outer fold, to build models for the remaining $$K-1$$ outer loop? i.e. to save the search of the best hyperparameter in the next $$K-1 \times L \times M$$ (where $$M$$ is the number of hyperparameter combinations, if use grid search).
 
 
-    I think the answer is no. The reason is that in this way, the `test` sets in the following loop are not "untouched" by the hyperparameter selection process. For example, in the outer loop # $2$, the `test` set for evaluating the model performance was actually used in the outer loop # $1$ for selecting the hyperparameter, then some data were used both for hyperparameter tuning and performance evaluation. This will cause overfitting.
+    I think the answer is no. The reason is that in this way, the `test` sets in the following loop are not "untouched" by the hyperparameter selection process. For example, in the outer loop # $$2$$, the `test` set for evaluating the model performance was actually used in the outer loop # $$1$$ for selecting the hyperparameter, then some data were used both for hyperparameter tuning and performance evaluation. This will cause overfitting.
 
-2. What if the $K$ outer loop has distinct hyperparameter? How can I use the nested CV to build the best model?
+2. What if the $$K$$ outer loop has distinct hyperparameter? How can I use the nested CV to build the best model?
 
     As I state in the beginning, CV is **not a method to get one or multiple trained models for inference**, but only a tool to **estimate an unbiased generalization performance**. CV will generate multiple models in each outer loop, but we can hardly estimate the performance of each individual model, since the number of the test set in each outer loop is small. However, if the model is stable (do not change much if the training data is perturbed), the hyperparameter found in each outer loop may be the same (using grid search) or similar to each other (using random search). A more in-depth explanation can be found [here](https://stats.stackexchange.com/questions/65128/nested-cross-validation-for-model-selection).
 
