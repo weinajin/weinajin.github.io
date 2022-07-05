@@ -2,10 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: research projects + visual arts.
+description: research projects, visual arts, and published book.
 nav: true
 nav_order: 2
-display_categories: [research, visual]
+display_categories: [research, visual, book]
 horizontal: false
 ---
 
