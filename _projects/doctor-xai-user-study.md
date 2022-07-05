@@ -4,6 +4,8 @@ description: A usability study to identify physicians’ needs and requirements 
 img: assets/img/user_need_study.jpg
 importance: 5
 category: research
+permalink: /doctor-ai.html
+
 ---
 
 Study Title:

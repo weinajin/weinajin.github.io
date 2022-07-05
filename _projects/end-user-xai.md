@@ -4,6 +4,7 @@ description: A usability study to identify physicians’ needs and requirements 
 img: assets/img/end_user_xai_cartoon.jpg
 importance: 3
 category: research
+permalink: /end-user-xai.html
 
 ---
 
@@ -18,7 +19,7 @@ The ability to explain decisions to end-users is a necessity to deploy AI as cri
 
 [Arxiv Paper](http://arxiv.org/abs/2102.02437)
 
-[Poster Abstract](http://weinajin.github.io/assets/pdf/End-User-Centred Explainable_AI_Taxonomy_VisualVocabularies.pdf)    
+[Poster Abstract](http://weinajin.github.io/assets/pdf/End-User-CentredExplainable_AI_Taxonomy_VisualVocabularies.pdf)    
 
 [Poster](http://weinajin.github.io/assets/pdf/201910_IEEE_VIS_poster.pdf)    
 

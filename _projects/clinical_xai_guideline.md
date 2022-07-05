@@ -5,6 +5,8 @@ description: How to design and evaluate explainable AI in real-world high-stakes
 img: assets/img/graphicabstract_XAI_guideline.jpg
 importance: 1
 category: research
+permalink: /clinical_xai_guideline.html
+
 ---
 
 
