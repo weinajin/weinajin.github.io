@@ -20,10 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d5a2461-916a-43c7-a970-234fcb6ed8a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2012-05-25-life.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2013-06-02-dream.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/2016-08-12-dump.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-01-23-time-life.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-01-23-time-life.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2014-01-25-magic.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2014-01-25-magic.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2016-07-26-seed.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2016-07-26-seed.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +45,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/_posts" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/_pages" />
     </key>
   </component>
@@ -62,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656990103867</updated>
       <workItem from="1656990109165" duration="22742000" />
-      <workItem from="1657040876897" duration="193000" />
+      <workItem from="1657040876897" duration="975000" />
     </task>
     <servers />
   </component>
