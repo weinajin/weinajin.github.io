@@ -21,10 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2d5a2461-916a-43c7-a970-234fcb6ed8a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_bibliography/papers.bib" beforeDir="false" afterPath="$PROJECT_DIR$/_bibliography/papers.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/bib.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/bib.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/_themes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_themes.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656990103867</updated>
       <workItem from="1656990109165" duration="22742000" />
-      <workItem from="1657040876897" duration="6264000" />
+      <workItem from="1657040876897" duration="7144000" />
     </task>
     <servers />
   </component>
@@ -92,10 +91,10 @@
       <screen x="0" y="-1415" width="2560" height="1415" />
     </state>
     <state x="1076" y="-790" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875/0.-1415.2560.1415@0.-1415.2560.1415" timestamp="1657124472602" />
-    <state x="436" y="206" width="818" height="668" key="find.popup" timestamp="1657126951761">
+    <state x="436" y="206" width="818" height="668" key="find.popup" timestamp="1657128892688">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
-    <state x="436" y="206" width="818" height="668" key="find.popup/0.25.1440.875/0.-1415.2560.1415@0.-1415.2560.1415" timestamp="1657126951761" />
+    <state x="436" y="206" width="818" height="668" key="find.popup/0.25.1440.875/0.-1415.2560.1415@0.-1415.2560.1415" timestamp="1657128892688" />
     <state x="436" y="206" width="818" height="668" key="find.popup/0.25.1440.875@0.25.1440.875" timestamp="1657025570844" />
   </component>
 </project>
