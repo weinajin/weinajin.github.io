@@ -1,8 +1,8 @@
 ---
 ---
 <!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2>">
+      <div class="row publication-row" id="{{entry.key}}">
+        <div class="col-sm-2> preview">
           <div class="{% if entry.abbr %}abbr{% endif %}">
           {%- if entry.abbr -%}
             {%- if site.data.venues[entry.abbr] -%}
@@ -24,7 +24,7 @@
         </div>
 
         <!-- Entry bib key -->
-        <div id="{{entry.key}}" class="col-sm-8">
+        <div class="col-sm-8">
         {% if entry.type == "thesis" -%}
           {{reference}}
         {%- else %}
