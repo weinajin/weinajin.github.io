@@ -22,8 +22,6 @@
     <list default="true" id="2d5a2461-916a-43c7-a970-234fcb6ed8a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_themes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_themes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/_variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656990103867</updated>
       <workItem from="1656990109165" duration="22742000" />
-      <workItem from="1657040876897" duration="7144000" />
+      <workItem from="1657040876897" duration="7327000" />
     </task>
     <servers />
   </component>
