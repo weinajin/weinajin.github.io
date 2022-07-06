@@ -8,6 +8,14 @@ importance: 4
 permalink: /brain-ai.html
 ---
 
+
+
+<h2>Related Publications</h2>
+<div class="publications">
+  {% bibliography -f papers -q @*[project=brain_ai_clinical_study]* %}
+</div>
+
+
 Study Title:
 
 **A usability study to assess the clinical utility of artificial intelligence and explainable artificial intelligence on brain tumor classification tasks**
