@@ -1,6 +1,6 @@
 ---
 layout: post
-title: flame
+title: Flame
 description: An experimental animated short film
 img: assets/img/flame.png
 category: visual

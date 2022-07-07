@@ -16,7 +16,10 @@ authors:
     url: "https://xxlya.github.io/xiaoxiao/"
     affiliations:
       name: Department of Electrical and Computer Engineering, The University of British Columbia
-  - name: Ghassan Hamarneh
+  - name: Mostafa Fatehi
+    affiliations:
+      name: Division of Neurosurgery, Vancouver General Hospital
+   - name: Ghassan Hamarneh
     url: "https://www.medicalimageanalysis.com/"
     affiliations:
       name: Medical Imaging Analysis Lab, School of Computing Science, Simon Fraser University
@@ -24,13 +27,13 @@ authors:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/publication_preview/graphic abstract_XAI_guideline.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/publication_preview/graphicabstract_XAI_guideline.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/clinical_XAI_guideline.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/clinical_XAI_guideline.png" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -52,7 +55,6 @@ A precursor of this work is published at AAAI 22 Social Impact Track:
     </div>
 </div>
 
-<a href="https://arxiv.org/abs/2107.05047" target="_blank">Paper</a>, <a href="https://youtu.be/J-ceZ20cBJk" target="_blank">Video paper presentation</a>, <a href="https://docs.google.com/presentation/d/1CfhnonnQl7ZD6yCCPqW37SEuC2dFrdPV_06R4jDyGsA/edit?usp=sharing" target="_blank">Slides</a>, [Poster](/files/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.pdf)
 
 The overarching problem is: how to design and evaluate explainable AI in real-world high-stakes domains. We propose a novel problem in the medical domain, multi-modal medical image explanation, and use it as an example to demonstrate our evaluation process that incorporates both technical and clinical requirements.
 
@@ -66,3 +68,8 @@ Our systematic evaluation provides a roadmap and objectives for the design and e
 
 Link to the previous work-in-progress paper: [One Map Not Fit All](https://weina.me/one-map-not-fit-all.html).
 
+
+<h5>Related Publications</h5>
+<div class="publications">
+  {% bibliography -f papers -q @*[project=xai_eval]* %}
+</div>

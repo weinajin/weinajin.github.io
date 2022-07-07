@@ -1,14 +1,12 @@
 ---
 layout: post
-title: Brain AI study, assessing the clinical utility of AI and its explanation
-description: A study to assess the clinical utility of artificial intelligence and explainable artificial intelligence on brain tumor classification tasks
+title: Brain AI user study
+description: A clinical study with neurosurgeons to assess the clinical utility of AI and its explanation
 img: assets/img/publication_preview/brain_ai.png
 category: research
 importance: 4
 permalink: /brain-ai.html
 ---
-
-
 
 <h5>Related Publication</h5>
 <div class="publications">
