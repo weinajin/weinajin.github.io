@@ -42,11 +42,11 @@
     month={Jun.},
     pages={11945-11953},
     arxiv = {2203.06487},
-    htmp = {https://ojs.aaai.org/index.php/AAAI/article/view/21452},
+    html = {https://ojs.aaai.org/index.php/AAAI/article/view/21452},
     bibtex_show={true},
     abbr = {AAAI},
+    preview = {Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.jpg},
     selected={true},
-    preview = {graphicabstract_XAI_guideline.jpg},
     tldr = {Our systematic evaluation showed the examined 16 heatmap algorithms failed to fulfill clinical requirements to correctly indicate AI model decision process or decision quality.},
     project = {xai_eval},
     poster = {Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.pdf},
@@ -95,7 +95,7 @@
     title     = {One Map Does Not Fit All: Evaluating Saliency Map Explanation on Multi-Modal
                Medical Images},
     abstract = {Being able to explain the prediction to clinical end-users is a necessity to leverage the power of AI models for clinical decision support. For medical images, saliency maps are the most common form of explanation. The maps highlight important features for AI model's prediction. Although many saliency map methods have been proposed, it is unknown how well they perform on explaining decisions on multi-modal medical images, where each modality/channel carries distinct clinical meanings of the same underlying biomedical phenomenon. Understanding such modality-dependent features is essential for clinical users' interpretation of AI decisions. To tackle this clinically important but technically ignored problem, we propose the MSFI (Modality-Specific Feature Importance) metric to examine whether saliency maps can highlight modality-specific important features. MSFI encodes the clinical requirements on modality prioritization and modality-specific feature localization. Our evaluations on 16 commonly used saliency map methods, including a clinician user study, show that although most saliency map methods captured modality importance information in general, most of them failed to highlight modality-specific important features consistently and precisely. The evaluation results guide the choices of saliency map methods and provide insights to propose new ones targeting clinical applications.},
-    booktitle   = {ICML 2021 Workshop on Interpretable Machine Learning in Healthcare},
+    journal   = {ICML 2021 Workshop on Interpretable Machine Learning in Healthcare},
     year      = {2021},
     url       = {https://arxiv.org/abs/2107.05047},
     arxiv = {2107.05047},
@@ -212,6 +212,7 @@
     significance = {Student Game Competition Finalist},
     slides = {https://youtu.be/_HfoHFr8F84},
     pdf = {ASIF_JIN.pdf},
+                tldr = {The design of an empathy game for people with chronic pain.},
 
 }
 
@@ -236,21 +237,24 @@
     abbr = {CSCW poster},
     poster = {Antibiotic_vis_Jin_poster.pdf},
     pdf = {vis_for_antibiotic_JIN.pdf},
+                tldr = {A visualization prototype to support asynchronous collaboration among healthcare professionals.},
 }
 
 @INPROCEEDINGS{jin2015likemind,
-author={Jin, Weina and Gromala, Diane and Tong, Xin},
-booktitle={2015 IEEE Games Entertainment Media Conference (GEM)},
-title={Serious game for serious disease: Diminishing stigma of depression via game experience},
-year={2015},  volume={},  number={},  pages={1-2},  doi={10.1109/GEM.2015.7377256},
-abstract = {Stigma is a common and serious problem for patients who suffer from depression and other mental illnesses. We designed a serious game to address this problem. The game enables player to experience and strive to overcome the disempowering aspects of depression during the journey to recovery. Through the game's interaction, player may gain a better understanding of the relationship between patient and the disease, which in turn may help to change the players' moral model with the disease model, and thereby diminish the stigma of depression.},
+    author={Jin, Weina and Gromala, Diane and Tong, Xin},
+    booktitle={2015 IEEE Games Entertainment Media Conference (GEM)},
+    title={Serious game for serious disease: Diminishing stigma of depression via game experience},
+    year={2015},  volume={},  number={},  pages={1-2},  doi={10.1109/GEM.2015.7377256},
+    abstract = {Stigma is a common and serious problem for patients who suffer from depression and other mental illnesses. We designed a serious game to address this problem. The game enables player to experience and strive to overcome the disempowering aspects of depression during the journey to recovery. Through the game's interaction, player may gain a better understanding of the relationship between patient and the disease, which in turn may help to change the players' moral model with the disease model, and thereby diminish the stigma of depression.},
     bibtex_show={true},
-            preview = {LikeMind.jpg},
-            abbr = {IEEE GEM poster},
-            slides = {https://youtu.be/RsPeC6pelE0},
-poster = {LikeMInd_poster.pdf},
-            pdf = {likemind_game_JIN.pdf},
-
+    preview = {LikeMind.jpg},
+    abbr = {IEEE GEM poster},
+    slides = {https://youtu.be/RsPeC6pelE0},
+    poster = {LikeMInd_poster.pdf},
+    pdf = {likemind_game_JIN.pdf},
+    tldr = {The design of an empathy game for people with depression.},
+    project = {likemind},
+    code = {https://github.com/weinajin/LikeMind_empathy_game_for_depression},
 }
 
 @INPROCEEDINGS{jin2018cybersickness,
@@ -263,4 +267,5 @@ doi={10.1109/GEM.2018.8516469},
 abstract = {Cybersickness, which is also called Virtual Reality (VR) sickness, poses a significant challenge to the VR user experience. Previous work demonstrated the viability of predicting cybersickness for VR 360°videos. Is it possible to automatically predict the level of cybersickness for interactive VR games? In this paper, we present a machine learning approach to automatically predict the level of cybersickness for VR games. First, we proposed a novel ranking-rating (RR) score to measure the ground-truth annotations for cybersickness. We then verified the RR scores by comparing them with the Simulator Sickness Questionnaire (SSQ) scores. Next, we extracted features from heterogeneous data sources including the VR visual input, the head movement, and the individual characteristics. Finally, we built three machine learning models and evaluated their performances: the Convolutional Neural Network (CNN) trained from scratch, the Long Short-Term Memory Recurrent Neural Networks (LSTM-RNN) trained from scratch, and the Support Vector Regression (SVR). The results indicated that the best performance of predicting cybersickness was obtained by the LSTM-RNN, providing a viable solution for automatically cybersickness prediction for interactive VR games.},
 abbr = {IEEE GEM},
 pdf = {cybersickness_ml_JIN.pdf},
+            tldr = {Applying machine learning to predict cybersickness.},
 }

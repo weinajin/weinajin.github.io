@@ -10,7 +10,7 @@ permalink: /brain-ai.html
 
 
 
-<h5>Related Publications</h5>
+<h5>Related Publication</h5>
 <div class="publications">
   {% bibliography -f papers -q @*[project=brain_ai_clinical_study]* %}
 </div>
