@@ -1,29 +1,13 @@
 ---
-layout: post
+layout: page
 title: Guidelines and Evaluation for Clinical Explainable AI
 description: How to design and evaluate explainable AI in real-world high-stakes domains?
 img: assets/img/publication_preview/graphicabstract_XAI_guideline.jpg
-importance: 1
 category: research
+importance: 1
 permalink: /clinical_xai_guideline.html
-
-authors:
-  - name: Weina Jin
-    url: "https://weina.me"
-    affiliations:
-      name: Medical Imaging Analysis Lab, School of Computing Science, Simon Fraser University
-  - name: Xiaoxiao Li
-    url: "https://xxlya.github.io/xiaoxiao/"
-    affiliations:
-      name: Department of Electrical and Computer Engineering, The University of British Columbia
-  - name: Mostafa Fatehi
-    affiliations:
-      name: Division of Neurosurgery, Vancouver General Hospital
-   - name: Ghassan Hamarneh
-    url: "https://www.medicalimageanalysis.com/"
-    affiliations:
-      name: Medical Imaging Analysis Lab, School of Computing Science, Simon Fraser University
 ---
+
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
