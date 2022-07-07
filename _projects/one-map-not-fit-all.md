@@ -1,5 +1,5 @@
 ---
-layout: distill
+layout: page
 title: One Map Does Not Fit All
 description: Evaluating AI Explanation on Multi-Modal Medical Image Task
 img: assets/img/multimodal_xai.png
@@ -25,12 +25,16 @@ authors:
 - The work-in-progress paper is accepted by <a href="https://sites.google.com/view/imlh2021/" target="_blank">ICML 2021 Workshop: Interpretable Machine Learning in Healthcare</a> as a spotlight paper.
 - The full paper is in: [Guidelines and evaluation for clinical explainable AI](https://weina.me/clinical_xai_guideline)
 
-![Multi_modal_image_explanation](assets/pdf/poster_OneMap.jpg)
+
+<h5>Related Publication</h5>
+<div class="publications">
+  {% bibliography -f papers -q @*[project=one_map]* %}
+</div>
 
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/pdf/poster_OneMap.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/pdf/poster_OneMap.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -69,7 +73,3 @@ We also propose the evaluation metric MSFI and conducted experiments to evaluate
 The application of MSFI could help to evaluate and select the saliency map method before clinical deployment, and  also provides clinical insights for the proposal of new AI method, such as those that incorporate clinical requirements on multi-modal image explanation into the model training.
 
 
-<h5>Related Publication</h5>
-<div class="publications">
-  {% bibliography -f papers -q @*[project=one_map]* %}
-</div>
