@@ -32,7 +32,7 @@ Ghassan Hamarneh, Medical Imaging Analysis Lab, School of Computing Science, Sim
 
 A precursor of this work is accepted by AAAI 22 Social Impact Track:
 
-# Evaluating Explainable AI on a Multi-Modal Medical Imaging Task: Can Existing Algorithms Fulfill Clinical Requirements?
+# <a name="AAAI22"></a> Evaluating Explainable AI on a Multi-Modal Medical Imaging Task: Can Existing Algorithms Fulfill Clinical Requirements?
 
 [![Evaluating_explanation](/assets/img/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.jpg)](/assets/pdf/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.pdf)
 
