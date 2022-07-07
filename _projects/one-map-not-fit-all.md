@@ -25,6 +25,7 @@ authors:
 - The work-in-progress paper is accepted by <a href="https://sites.google.com/view/imlh2021/" target="_blank">ICML 2021 Workshop: Interpretable Machine Learning in Healthcare</a> as a spotlight paper.
 - The full paper is in: [Guidelines and evaluation for clinical explainable AI](https://weina.me/clinical_xai_guideline)
 
+![Multi_modal_image_explanation](assets/pdf/poster_OneMap.jpg)
 
 
 <div class="row mt-3">
@@ -32,6 +33,7 @@ authors:
         {% include figure.html path="assets/pdf/poster_OneMap.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+
 
 ## Introduction
 Being able to explain the prediction to clinical end-users is a necessity to leverage the power of AI models for clinical decision support. For medical images, saliency maps are the most common form of explanation. The maps highlight important features for AI model's prediction. Although many saliency map methods have been proposed, it is unknown how well they perform on explaining decisions on multi-modal medical images, where each modality/channel carries distinct clinical meanings of the same underlying biomedical phenomenon.

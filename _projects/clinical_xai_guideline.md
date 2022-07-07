@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Guidelines and Evaluation for clinical explainable AI
+title: Guidelines and Evaluation for Clinical Explainable AI
 description: How to design and evaluate explainable AI in real-world high-stakes domains?
 img: assets/img/publication_preview/graphicabstract_XAI_guideline.jpg
 importance: 1
@@ -43,6 +43,10 @@ authors:
 * Evaluations on two medical datasets showed existing heatmap methods met G1, partially met G2, but failed G3 and G4.
 * We propose a novel problem of multi-modal medical image explanation and its metrics.
 
+<div class="publications">
+  {% bibliography -f papers -q @*[project=xai_eval]* %}
+</div>
+
 ---
 
 A precursor of this work is published at AAAI 22 Social Impact Track:
@@ -64,12 +68,15 @@ Based on the explanation goals in real-world critical tasks, we set two primary 
 
 Our systematic evaluation provides a roadmap and objectives for the design and evaluation of explainable AI in critical tasks. 
 
+<div class="publications">
+  {% bibliography -f papers -q @*[project=xai_eval_aaai]* %}
+</div>
+
 ---
 
 Link to the previous work-in-progress paper: [One Map Not Fit All](https://weina.me/one-map-not-fit-all.html).
 
 
-<h5>Related Publications</h5>
 <div class="publications">
-  {% bibliography -f papers -q @*[project=xai_eval]* %}
+  {% bibliography -f papers -q @*[project=one_map]* %}
 </div>

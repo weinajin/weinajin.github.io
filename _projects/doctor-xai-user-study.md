@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Physician user study on Explainable AI
+layout: page
+title: Physician User Study on Explainable AI
 description: A usability study to identify physicians’ needs and requirements for explainable AI
 img: assets/img/publication_preview/card_sorting.jpg
 importance: 5

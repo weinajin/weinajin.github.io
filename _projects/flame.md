@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Flame
 description: An experimental animated short film
 img: assets/img/flame.png

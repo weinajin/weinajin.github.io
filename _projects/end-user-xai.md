@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: EUCA
 description: the End-User-Centered Explainable AI Prototyping Framework
 img: assets/img/publication_preview/EUCA.png

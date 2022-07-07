@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: It hurts here
 description: A body cartogram visualization of pain data
 img: assets/img/body_cartogram.jpg

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Brain AI user study
 description: A clinical study with neurosurgeons to assess the clinical utility of AI and its explanation
 img: assets/img/publication_preview/brain_ai.png
@@ -44,8 +44,6 @@ To participate in the survey, you must:
 - be a consultant neurosurgeon, radiologist, or neuro-radiologist
 - or a resident/fellow in neurosurgery, radiology, or neuro-radiology
 
-For more information, please email the study researcher Weina: weinaj at sfu dot ca 
-
-[Certificate of Ethical Approval](/assets/pdf/brain_ai/Certificate of Ethical Approval for Harmonized Minimal Risk Behavioural Study.pdf)
+[Certificate of Ethical Approval](/assets/pdf/Certificate of Ethical Approval for Harmonized Minimal Risk Behavioural Study.pdf)
 
 

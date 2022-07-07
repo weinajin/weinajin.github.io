@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: LikeMind
 description: A game to experience the stigma of depression
 img: assets/img/publication_preview/LikeMind.jpg

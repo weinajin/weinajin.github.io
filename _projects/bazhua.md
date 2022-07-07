@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Bazhua's book
 description: The Health Topics that Doctors Want to Discuss with You
 img: assets/img/bazhua_book.jpg
