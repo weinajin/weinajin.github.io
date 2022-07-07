@@ -20,16 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d5a2461-916a-43c7-a970-234fcb6ed8a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_projects/bazhua.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_projects/body_cartogram.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_projects/flame.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_projects/likemind.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_bibliography/papers.bib" beforeDir="false" afterPath="$PROJECT_DIR$/_bibliography/papers.bib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/body_cartogram.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/body_cartogram.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_projects/brain-ai.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/brain-ai.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_projects/clinical_xai_guideline.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/clinical_xai_guideline.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/doctor-xai-user-study.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/doctor-xai-user-study.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/end-user-xai.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/end-user-xai.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/likemind.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/likemind.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_projects/one-map-not-fit-all.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/one-map-not-fit-all.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/pdf/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656990103867</updated>
       <workItem from="1656990109165" duration="22742000" />
-      <workItem from="1657040876897" duration="25687000" />
+      <workItem from="1657040876897" duration="28338000" />
     </task>
     <servers />
   </component>

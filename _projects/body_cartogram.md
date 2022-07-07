@@ -1,10 +1,10 @@
 ---
 layout: post
 title: It hurts here
-description: A game to experience the stigma of depression
-img: assets/img/flame.png
+description: A body cartogram visualization of pain data
+img: assets/img/body_cartogram.jpg
 category: visual
-importance: 2
+importance: 3
 permalink: /body_cartogram.html
 ---
 

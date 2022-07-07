@@ -1,8 +1,8 @@
 ---
-layout: distill
+layout: post
 title: Brain AI study, assessing the clinical utility of AI and its explanation
 description: A study to assess the clinical utility of artificial intelligence and explainable artificial intelligence on brain tumor classification tasks
-img: assets/img/brain_ai.png
+img: assets/img/publication_preview/brain_ai.png
 category: research
 importance: 4
 permalink: /brain-ai.html
@@ -15,6 +15,9 @@ permalink: /brain-ai.html
   {% bibliography -f papers -q @*[project=brain_ai_clinical_study]* %}
 </div>
 
+# Prior recruitment information
+
+*The recruitment phase is ended. Thank you very much for your interest!*
 
 Study Title:
 

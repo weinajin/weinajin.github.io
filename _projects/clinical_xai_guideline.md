@@ -7,22 +7,34 @@ importance: 1
 category: research
 permalink: /clinical_xai_guideline.html
 
+authors:
+  - name: Weina Jin
+    url: "https://weina.me"
+    affiliations:
+      name: Medical Imaging Analysis Lab, School of Computing Science, Simon Fraser University
+  - name: Xiaoxiao Li
+    url: "https://xxlya.github.io/xiaoxiao/"
+    affiliations:
+      name: Department of Electrical and Computer Engineering, The University of British Columbia
+  - name: Ghassan Hamarneh
+    url: "https://www.medicalimageanalysis.com/"
+    affiliations:
+      name: Medical Imaging Analysis Lab, School of Computing Science, Simon Fraser University
 ---
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/publication_preview/graphic abstract_XAI_guideline.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
-## Authors
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/clinical_XAI_guideline.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
-Weina Jin, Medical Imaging Analysis Lab, School of Computing Science, Simon Fraser University
-
-Xiaoxiao Li, Department of Electrical and Computer Engineering, The University of British Columbia
-
-Ghassan Hamarneh, Medical Imaging Analysis Lab, School of Computing Science, Simon Fraser University
-
-![Evaluating_explanation](/assets/img/graphic abstract_XAI_guideline.jpg)
-
-<a href="https://arxiv.org/abs/2202.10553" target="_blank">Paper</a>
-
-* Clinical Explainable AI Guidelines supports XAI design and evaluation for clinical use.
+* The Clinical Explainable AI Guidelines provides design and evaluation criteria that supports the XAI design and evaluation for clinical use.
 * Explanation form is chosen based on G1 Understandability and G2 Clinical relevance.
 * Explanation method is chosen based on G3 Truthfulness and G4 Informative plausibility.
 * Evaluations on two medical datasets showed existing heatmap methods met G1, partially met G2, but failed G3 and G4.
@@ -30,11 +42,15 @@ Ghassan Hamarneh, Medical Imaging Analysis Lab, School of Computing Science, Sim
 
 ---
 
-A precursor of this work is accepted by AAAI 22 Social Impact Track:
+A precursor of this work is published at AAAI 22 Social Impact Track:
 
 # <a name="AAAI22"></a> Evaluating Explainable AI on a Multi-Modal Medical Imaging Task: Can Existing Algorithms Fulfill Clinical Requirements?
 
-[![Evaluating_explanation](/assets/img/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.jpg)](/assets/pdf/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.pdf)
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/publication_preview/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
 <a href="https://arxiv.org/abs/2107.05047" target="_blank">Paper</a>, <a href="https://youtu.be/J-ceZ20cBJk" target="_blank">Video paper presentation</a>, <a href="https://docs.google.com/presentation/d/1CfhnonnQl7ZD6yCCPqW37SEuC2dFrdPV_06R4jDyGsA/edit?usp=sharing" target="_blank">Slides</a>, [Poster](/files/Poster_AAAI22_Evaluating_ExplainableAI_Jin_Li_Hamarneh.pdf)
 

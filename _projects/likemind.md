@@ -2,7 +2,7 @@
 layout: post
 title: LikeMind
 description: A game to experience the stigma of depression
-img: assets/img/flame.png
+img: assets/img/publication_preview/LikeMind.jpg
 category: visual
 importance: 2
 permalink: /likemind.html

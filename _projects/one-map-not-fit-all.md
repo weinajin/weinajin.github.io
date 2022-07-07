@@ -7,24 +7,34 @@ category: research
 importance: 2
 permalink: /one-map-not-fit-all.html
 
+authors:
+  - name: Weina Jin
+    url: "https://weina.me"
+    affiliations:
+      name: Medical Imaging Analysis Lab, School of Computing Science, Simon Fraser University
+  - name: Xiaoxiao Li
+    url: "https://xxlya.github.io/xiaoxiao/"
+    affiliations:
+      name: Department of Electrical and Computer Engineering, The University of British Columbia
+  - name: Ghassan Hamarneh
+    url: "https://www.medicalimageanalysis.com/"
+    affiliations:
+      name: Medical Imaging Analysis Lab, School of Computing Science, Simon Fraser University
 ---
-
-## Authors
-
-Weina Jin, Medical Imaging Analysis Lab, School of Computing Science, Simon Fraser University
-
-Xiaoxiao Li, Department of Electrical and Computer Engineering, The University of British Columbia
-
-Ghassan Hamarneh, Medical Imaging Analysis Lab, School of Computing Science, Simon Fraser University
-
 - <a href="https://arxiv.org/abs/2107.05047" target="_blank">Arxiv Paper</a>, <a href="https://youtu.be/J-ceZ20cBJk" target="_blank">Video paper presentation</a>, <a href="https://docs.google.com/presentation/d/1cQbQOxqihgm5QpdeUGFdabnY9ulVnRt2D7GtYbK_Kv0/edit?usp=sharing" target="_blank">Slides</a>
 - The work-in-progress paper is accepted by <a href="https://sites.google.com/view/imlh2021/" target="_blank">ICML 2021 Workshop: Interpretable Machine Learning in Healthcare</a> as a spotlight paper.
 - The full paper is in: [Guidelines and evaluation for clinical explainable AI](https://weina.me/clinical_xai_guideline)
 
+<h5>Related Publication</h5>
+<div class="publications">
+  {% bibliography -f papers -q @*[project=one_map]* %}
+</div>
 
-![Multi_modal_image_explanation](/assets/img/poster_One Map Does Not Fit All_Evaluating Saliency Map Explanation on Multi-Modal Medical Images.png)
-
-
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/poster_OneMap.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
 ## Introduction
 Being able to explain the prediction to clinical end-users is a necessity to leverage the power of AI models for clinical decision support. For medical images, saliency maps are the most common form of explanation. The maps highlight important features for AI model's prediction. Although many saliency map methods have been proposed, it is unknown how well they perform on explaining decisions on multi-modal medical images, where each modality/channel carries distinct clinical meanings of the same underlying biomedical phenomenon.
