@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Guidelines and Evaluation for Clinical Explainable AI
 description: How to design and evaluate explainable AI in real-world high-stakes domains?
 img: assets/img/publication_preview/graphicabstract_XAI_guideline.jpg
