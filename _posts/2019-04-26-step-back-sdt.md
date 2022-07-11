@@ -5,6 +5,8 @@ date:   2019-04-26 10:00:00
 comments: true
 description: A practice on self-determination theory
 tags: research
+permalink: /step-back-sdt
+
 ---
 
 Recently I received [two interviews](https://www.sfu.ca/siat/news-events/news/2019/graduate-student-highlight-weina-jin.html) from my department (School of Interactive Arts and Technology, SIAT). I post my responses so that to make my recent thoughts tangible. When I formulate the text, I am greatly influenced by self-determination theory[^sdt]. Thanks to my persistent trial-and-error in the past decade, fortunately, I seem to approximate my intrinsic interests starting from my Ph.D. thesis. Now although I am no longer young enough and my career has just started, I already enjoy the vitality and creativity during my thesis research process. When facing my projects, my co-workers, and my family, I also feel less anxious and more peaceful.
