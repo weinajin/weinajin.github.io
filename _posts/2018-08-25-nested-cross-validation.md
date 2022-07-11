@@ -5,7 +5,7 @@ date:   2018-08-25 17:00:00
 comments: true
 description: Using two-round cross validation for model selection and performance evaluation.
 tags: technical
-
+permalink: /nested-cross-validation
 ---
 
 It is natural to come up with cross-validation (CV) when the dataset is relatively small. The basic idea of cross-validation is to train a new model on a subset of data, and validate the trained model on the remaining data. Repeat the process multiple times and average the validation error, we get an estimate of the generalization performance of the model. Since the test data is untouched during each training, we kind of use the whole dataset to estimate the generalization error, which will reduce the bias. However, since it will train multiple models instead of one, the drawback of CV is that quite computational expensive.
