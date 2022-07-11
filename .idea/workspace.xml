@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d5a2461-916a-43c7-a970-234fcb6ed8a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2019-04-26-step-back-sdt.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2019-04-26-step-back-sdt.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-25-nested-cross-validation.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-25-nested-cross-validation.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +63,7 @@
       <updated>1656990103867</updated>
       <workItem from="1656990109165" duration="22742000" />
       <workItem from="1657040876897" duration="32533000" />
-      <workItem from="1657561134216" duration="594000" />
+      <workItem from="1657561134216" duration="1026000" />
     </task>
     <servers />
   </component>
@@ -90,10 +91,11 @@
       <screen x="0" y="-1415" width="2560" height="1415" />
     </state>
     <state x="1076" y="-790" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875/0.-1415.2560.1415@0.-1415.2560.1415" timestamp="1657144887401" />
-    <state x="436" y="206" width="818" height="668" key="find.popup" timestamp="1657219937301">
+    <state x="436" y="206" width="818" height="668" key="find.popup" timestamp="1657563268768">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="436" y="206" width="818" height="668" key="find.popup/0.25.1440.875/0.-1415.2560.1415@0.-1415.2560.1415" timestamp="1657219937301" />
+    <state x="436" y="206" width="818" height="668" key="find.popup/0.25.1440.875/0.-1415.2560.1415@0.25.1440.875" timestamp="1657563268768" />
     <state x="436" y="206" width="818" height="668" key="find.popup/0.25.1440.875@0.25.1440.875" timestamp="1657025570844" />
   </component>
 </project>

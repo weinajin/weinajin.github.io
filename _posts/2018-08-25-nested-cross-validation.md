@@ -21,10 +21,15 @@ When doing one round CV to evaluate the performance of different models, and sel
 The nested CV has an inner loop CV nested in an outer CV. The inner loop is responsible for model selection/hyperparameter tuning (similar to validation set), while the outer loop is for error estimation (test set).
 
 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="https://i.stack.imgur.com/vh1sZ.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Nested cross validation. <a><href = "https://stats.stackexchange.com/questions/292179/whats-the-meaning-of-nested-resampling" target="_blank">Image source: Cross Validated</a>
+</div>
 
-![nested cross validation](https://i.stack.imgur.com/vh1sZ.png)
-
-Image source: [Cross Validated](https://stats.stackexchange.com/questions/292179/whats-the-meaning-of-nested-resampling)
 
 
 The algorithm is as follows (adapted from Hastie et. al [1] and [this post](https://stats.stackexchange.com/questions/266225/step-by-step-explanation-of-k-fold-cross-validation-with-grid-search-to-optimise)):
