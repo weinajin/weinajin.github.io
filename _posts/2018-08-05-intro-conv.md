@@ -5,6 +5,7 @@ date:   2018-08-05 10:00:00
 comments: true
 description: Convolution is one of the most mysterious words for a novice deep learner. It is just a fancy operation of the weighted sum.
 tags: technical
+permalink: /intro-conv
 ---
 
 

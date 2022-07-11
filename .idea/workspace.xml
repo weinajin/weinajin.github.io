@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2d5a2461-916a-43c7-a970-234fcb6ed8a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-08-25-nested-cross-validation.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-25-nested-cross-validation.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-05-intro-conv.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-08-05-intro-conv.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_projects/clinical_xai_guideline.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/clinical_xai_guideline.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <updated>1656990103867</updated>
       <workItem from="1656990109165" duration="22742000" />
       <workItem from="1657040876897" duration="32533000" />
-      <workItem from="1657561134216" duration="187000" />
+      <workItem from="1657561134216" duration="521000" />
     </task>
     <servers />
   </component>
