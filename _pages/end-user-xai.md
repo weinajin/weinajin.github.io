@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /end-user-xai/
+permalink: /euca/
 title: End-User XAI
 nav: true
 nav_order: 3
