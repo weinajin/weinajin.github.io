@@ -63,7 +63,7 @@ To enable doctors’ performance when assisted by AI outperforming the best perf
 </div>
 Figure 4. Result on doctors' decision change patterns from being assisted by AI to being assisted by explainable AI.
 
-To understand why AI explanations were ineffective, qualitative data played a crucial role. By interviewing five doctors, we found out that current explainable AI technologies have significant shortcomings, unable to provide reliable information to help doctors accurately determine when to accept or reject AI advice. This finding is summarized in the discussion section of the article, with more detailed analysis and summarized clinical guidelines available in our previous publication: "Guidelines and evaluation of clinical explainable AI in medical image analysis."
+To understand why AI explanations were ineffective, qualitative data played a crucial role. By interviewing five doctors, we found out that current explainable AI technologies have significant shortcomings, unable to provide reliable information to help doctors accurately determine when to accept or reject AI advice. This finding is summarized in the discussion section of the article, with more detailed analysis and summarized clinical guidelines available in our previous publication: "[Guidelines and evaluation of clinical explainable AI in medical image analysis](https://weina.me/clinical_xai_guideline)".
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
