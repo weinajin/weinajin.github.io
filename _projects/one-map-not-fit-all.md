@@ -4,7 +4,7 @@ title: One Map Does Not Fit All
 description: Evaluating AI Explanation on Multi-Modal Medical Image Task
 img: assets/img/multimodal_xai.png
 category: research
-importance: 2
+importance: 4
 permalink: /one-map-not-fit-all.html
 
 authors:

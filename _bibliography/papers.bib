@@ -5,28 +5,47 @@
 
 
 
-@article{jin2022XAIguideline,
-    url = {https://arxiv.org/abs/2202.10553},
-    arxiv = {2202.10553},
-    author = {Jin, Weina and Li, Xiaoxiao and Fatehi, Mostafa and Hamarneh, Ghassan},
-    keywords = {Machine Learning (cs.LG), Artificial Intelligence (cs.AI), Computer Vision and Pattern Recognition (cs.CV), Image and Video Processing (eess.IV), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Electrical engineering, electronic engineering, information engineering, FOS: Electrical engineering, electronic engineering, information engineering},
-    title = {Guidelines and Evaluation for Clinical Explainable {AI} in Medical Image Analysis},
-    publisher = {arXiv},
-    journal = {Under revision at Medical Image Analysis},
-    year = {2022},
-    abstract = {Explainable artificial intelligence (XAI) is essential for enabling clinical users to get informed decision support from AI and comply with evidence-based medical practice. Applying XAI in clinical settings requires proper evaluation criteria to ensure the explanation technique is both technically sound and clinically useful, but specific support is lacking to achieve this goal.
-    To bridge the research gap, we propose the Clinical XAI Guidelines that consist of five criteria a clinical XAI needs to be optimized for. The guidelines recommend choosing an explanation form based on Guideline 1 (G1) Understandability and G2 Clinical relevance. For the chosen explanation form, its specific XAI technique should be optimized for G3 Truthfulness, G4 Informative plausibility, and G5 Computational efficiency.
-    Following the guidelines, we conducted a systematic evaluation on a novel problem of multi-modal medical image explanation with two clinical tasks, and proposed new evaluation metrics accordingly.
-    16 commonly-used heatmap XAI techniques were evaluated and found to be insufficient for clinical use due to their failure in G3 and G4. Our evaluation demonstrated the use of Clinical XAI Guidelines to support the design and evaluation for clinically viable XAI. },
+
+
+@article{JIN2023102684,
+title = {Guidelines and evaluation of clinical explainable AI in medical image analysis},
+journal = {Medical Image Analysis},
+volume = {84},
+pages = {102684},
+year = {2023},
+issn = {1361-8415},
+doi = {https://doi.org/10.1016/j.media.2022.102684},
+url = {https://www.sciencedirect.com/science/article/pii/S1361841522003127},
+author = {Weina Jin and Xiaoxiao Li and Mostafa Fatehi and Ghassan Hamarneh},
+keywords = {Interpretable machine learning, Medical image analysis, Multi-modal medical image, Explainable AI evaluation},
+abstract = {Explainable artificial intelligence (XAI) is essential for enabling clinical users to get informed decision support from AI and comply with evidence-based medical practice. Applying XAI in clinical settings requires proper evaluation criteria to ensure the explanation technique is both technically sound and clinically useful, but specific support is lacking to achieve this goal. To bridge the research gap, we propose the Clinical XAI Guidelines that consist of five criteria a clinical XAI needs to be optimized for. The guidelines recommend choosing an explanation form based on Guideline 1 (G1) Understandability and G2 Clinical relevance. For the chosen explanation form, its specific XAI technique should be optimized for G3 Truthfulness, G4 Informative plausibility, and G5 Computational efficiency. Following the guidelines, we conducted a systematic evaluation on a novel problem of multi-modal medical image explanation with two clinical tasks, and proposed new evaluation metrics accordingly. Sixteen commonly-used heatmap XAI techniques were evaluated and found to be insufficient for clinical use due to their failure in G3 and G4. Our evaluation demonstrated the use of Clinical XAI Guidelines to support the design and evaluation of clinically viable XAI.}
     bibtex_show={true},
     preview = {graphicabstract_XAI_guideline.jpg},
     selected={true},
-    abbr = {arXiv},
+    abbr = {MedIA},
     project = {xai_eval},
     blog= {https://weina.me/clinical_xai_guideline.html},
     pdf = {manuscript_Clinical_XAI_Guidelines_cleaned.pdf},
     code = {https://github.com/weinajin/multimodal_explanation},
     tldr = {The Clinical XAI Guidelines provides criteria that explanation should fulfill in critical decision support.},
+}
+
+@article{JIN2023102009,
+title = {Generating post-hoc explanation from deep neural networks for multi-modal medical image analysis tasks},
+journal = {MethodsX},
+volume = {10},
+pages = {102009},
+year = {2023},
+issn = {2215-0161},
+doi = {https://doi.org/10.1016/j.mex.2023.102009},
+url = {https://www.sciencedirect.com/science/article/pii/S2215016123000146},
+author = {Weina Jin and Xiaoxiao Li and Mostafa Fatehi and Ghassan Hamarneh},
+keywords = {Interpretable machine learning, Explainable artificial intelligence, Medical image analysis, Multi-modal medical image, Post-hoc explanation},
+abstract = {Explaining model decisions from medical image inputs is necessary for deploying deep neural network (DNN) based models as clinical decision assistants. The acquisition of multi-modal medical images is pervasive in practice for supporting the clinical decision-making process. Multi-modal images capture different aspects of the same underlying regions of interest. Explaining DNN decisions on multi-modal medical images is thus a clinically important problem. Our methods adopt commonly-used post-hoc artificial intelligence feature attribution methods to explain DNN decisions on multi-modal medical images, including two categories of gradient- and perturbation-based methods. • Gradient-based explanation methods – such as Guided BackProp, DeepLift – utilize the gradient signal to estimate the feature importance for model prediction. • Perturbation-based methods – such as occlusion, LIME, kernel SHAP – utilize the input-output sampling pairs to estimate the feature importance. • We describe the implementation details on how to make the methods work for multi-modal image input, and make the implementation code available.}
+    abbr = {MedIA},
+    bibtex_show={true},
+    code = {https://github.com/weinajin/multimodal_explanation},
+    tldr = {Describing the methods of generating AI heatmap explanations for multi-modal medical images.},
 }
 
 @article{Jin_Li_Hamarneh_2022,
@@ -71,21 +90,31 @@
     blog = {https://weina.me/doctor-ai.html},
 }
 
-@article{brain_ai_clinical_study,
-    author = {Jin, Weina and
-    Fatehi, Mostafa and
-    Hamarneh, Ghassan},
-    journal = {In submission to Neuro-Oncology},
-    title = {Assessing the Clinical Utility of Artificial Intelligence Assistance and its Explanation on Glioma Grading Task},
-    year = {2022},
+
+
+@article{JIN2024102751,
+title = {Evaluating the clinical utility of artificial intelligence assistance and its explanation on the glioma grading task},
+journal = {Artificial Intelligence in Medicine},
+volume = {148},
+pages = {102751},
+year = {2024},
+issn = {0933-3657},
+doi = {https://doi.org/10.1016/j.artmed.2023.102751},
+url = {https://www.sciencedirect.com/science/article/pii/S0933365723002658},
+author = {Weina Jin and Mostafa Fatehi and Ru Guo and Ghassan Hamarneh},
+keywords = {Artificial intelligence, Neuro-imaging, Neurosurgery, Explainable artificial intelligence, Clinical study, Human-centered artificial intelligence},
+abstract = {Clinical evaluation evidence and model explainability are key gatekeepers to ensure the safe, accountable, and effective use of artificial intelligence (AI) in clinical settings. We conducted a clinical user-centered evaluation with 35 neurosurgeons to assess the utility of AI assistance and its explanation on the glioma grading task. Each participant read 25 brain MRI scans of patients with gliomas, and gave their judgment on the glioma grading without and with the assistance of AI prediction and explanation. The AI model was trained on the BraTS dataset with 88.0% accuracy. The AI explanation was generated using the explainable AI algorithm of SmoothGrad, which was selected from 16 algorithms based on the criterion of being truthful to the AI decision process. Results showed that compared to the average accuracy of 82.5±8.7% when physicians performed the task alone, physicians’ task performance increased to 87.7±7.3% with statistical significance (p-value = 0.002) when assisted by AI prediction, and remained at almost the same level of 88.5±7.0% (p-value = 0.35) with the additional assistance of AI explanation. Based on quantitative and qualitative results, the observed improvement in physicians’ task performance assisted by AI prediction was mainly because physicians’ decision patterns converged to be similar to AI, as physicians only switched their decisions when disagreeing with AI. The insignificant change in physicians’ performance with the additional assistance of AI explanation was because the AI explanations did not provide explicit reasons, contexts, or descriptions of clinical features to help doctors discern potentially incorrect AI predictions. The evaluation showed the clinical utility of AI to assist physicians on the glioma grading task, and identified the limitations and clinical usage gaps of existing explainable AI techniques for future improvement.}
+    pdf = {https://github.com/weinajin/multimodal_explanation/tree/main/neurosurgeon_clinical_study_data_analysis/paper_preprint},
+    slides = {neurosurgeon_user_study_presentation.pdf},
+    abbr = {AIIM},
+    video = {https://youtu.be/rhLQQsc8Z8Y},
     bibtex_show={true},
     preview = {brain_ai.png},
     significance = {Weina Jin and Mostafa Fatehi are co-first authors},
     project = {brain_ai_clinical_study},
     blog = {https://weina.me/brain-ai.html},
+    tldr = {A clinical user study with 35 neurosurgeons and identified that AI and explainable AI are not helpful in the collaborative doctor-AI clinical settings.},
 }
-
-
 
 
 @article{jin2021one_map_not_fit_all,
