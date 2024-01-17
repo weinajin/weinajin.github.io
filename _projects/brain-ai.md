@@ -8,7 +8,7 @@ importance: 2
 permalink: /brain-ai.html
 ---
 
-# Blog post on the paper
+# Blog post on this paper
 
 2024-01-17
 
