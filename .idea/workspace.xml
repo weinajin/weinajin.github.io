@@ -25,7 +25,6 @@
     <list default="true" id="2d5a2461-916a-43c7-a970-234fcb6ed8a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_bibliography/papers.bib" beforeDir="false" afterPath="$PROJECT_DIR$/_bibliography/papers.bib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_projects/brain-ai.md" beforeDir="false" afterPath="$PROJECT_DIR$/_projects/brain-ai.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <workItem from="1658434364023" duration="1472000" />
       <workItem from="1660581043997" duration="500000" />
       <workItem from="1661537261108" duration="27000" />
-      <workItem from="1705517834869" duration="3770000" />
+      <workItem from="1705517834869" duration="4199000" />
     </task>
     <servers />
   </component>
