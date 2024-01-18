@@ -4,13 +4,14 @@ title: Neurosurgeon User Study
 description: A clinical study with neurosurgeons to assess the clinical utility of AI and its explanation
 img: assets/img/publication_preview/brain_ai.png
 category: research
+comments: true
+date:   2024-01-17
 importance: 2
 permalink: /brain-ai.html
 ---
 
 # Blog post on this paper
 
-2024-01-17
 
 After more than two years of work, our paper on the clinical utility of AI and explainable AI has finally been published in the Artificial Intelligence in Medicine journal! I write this blog post to summarize our insights and thoughts from this work.
 
