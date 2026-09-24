@@ -10,7 +10,7 @@ children:
   - title: divider
   - title: End-User-Centered Explainable AI Framework EUCA
     permalink: /euca/
-  - title: divider
-  - title: bookshelf
-    permalink: /books/
+#  - title: divider
+#  - title: bookshelf
+#    permalink: /books/
 ---
