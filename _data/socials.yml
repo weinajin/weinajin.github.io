@@ -9,6 +9,6 @@ scholar_userid: uajp-AkAAAAJ # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://commons.wikimedia.org/wiki/File:LinkedIn_logo_initials.png # can be png, svg, jpg
+  logo: https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original # can be png, svg, jpg
   title: LinkedIn
   url: https://www.linkedin.com/in/jinweina/
