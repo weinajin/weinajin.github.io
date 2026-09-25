@@ -29,7 +29,7 @@ Using the framework of clinical research, many studies claiming that AI surpasse
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/4phases_evaluating_AI_in_glioma.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/4phases_evaluating_AI_in_glioma.png" class="img-fluid z-depth-1" %}
     </div>
 </div>
 Figure 1. The four phases of evaluating the clinical utility of AI in glioma imaging. Image is from our previous publication: [Artificial intelligence in glioma imaging: challenges and advances](https://arxiv.org/pdf/1911.12886.pdf). J Neural Eng. 2020
