@@ -67,7 +67,7 @@ The underlying assumption of this approach is:
 
 By being able to doubt the existing technical practices and their underlying assumptions, we assume that technical practice and development are not deterministic and inevitable processes driven by the natural course of technical advancement, but are shaped by complex factors. I illustrate the complex factors in this picture:
 
-![sociotechnical_system](../assets/images/tree.jpg)
+{% include figure.liquid loading="eager" path="assets/img/tree.jpg" class="img-fluid z-depth-1" %}
 
 
 Technical practices are leaves of the tree, and the resulting techniques are the fruits, seeds, or oxygen that trees produce. Technical practices and the resulting technologies are shaed by the institutional arrangements (the tree structure of trunks and branches) in the technical community, including:
