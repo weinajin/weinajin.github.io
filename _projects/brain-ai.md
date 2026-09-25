@@ -41,7 +41,7 @@ With the doctor-AI collaboration setting, we conducted the first phase 2 clinica
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/neurosurgeon_user_study_result1.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/neurosurgeon_user_study_result1.png" class="img-fluid z-depth-1" %}
     </div>
 </div>
 Figure 2. Result on doctors' task accuracies in the three conditions.
@@ -50,7 +50,7 @@ As shown in Figure 2, compared to doctors working alone (82.5%), doctors’ perf
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/neurosurgeon_user_study_result2.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/neurosurgeon_user_study_result2.png" class="img-fluid z-depth-1" %}
     </div>
 </div>
 Figure 3. Result on doctors' decision change patterns from reading MRI alone to being assisted by AI.
@@ -59,7 +59,7 @@ To enable doctors’ performance when assisted by AI outperforming the best perf
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/neurosurgeon_user_study_result3.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/neurosurgeon_user_study_result3.png" class="img-fluid z-depth-1" %}
     </div>
 </div>
 Figure 4. Result on doctors' decision change patterns from being assisted by AI to being assisted by explainable AI.
@@ -68,7 +68,7 @@ To understand why AI explanations were ineffective, qualitative data played a cr
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/neurosurgeon_user_study_result4.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/neurosurgeon_user_study_result4.png" class="img-fluid z-depth-1" %}
     </div>
 </div>
 Figure 5. Qualitative result on doctors' comments on explainable AI.
