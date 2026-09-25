@@ -7,7 +7,7 @@ nav: false
 
 I am slowly working on a reading project that explores the intersection of feminist epistemology and medical imaging. 
 
-Here is the reading list that is recommended by the Prof. [Susan Erikson](https://www.sfu.ca/fhs/about/people/profiles/susan-erikson.html). Thank you Prof. Erikson!
+Here is the reading list that is recommended by Prof. [Susan Erikson](https://www.sfu.ca/fhs/about/people/profiles/susan-erikson.html). Thank you Prof. Erikson!
 
 
 1. The Visible Woman: Imaging Technologies, Gender, and Science 

@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: research
 permalink: /projects/
 description: Weina's research projects
 nav: true
 nav_order: 2
-display_categories: [User-cnetered AI, Explainable AI, AI Ethics]
+display_categories: [Explainable AI, Medical Image Analysis, User-Centered AI, AI Ethics]
 horizontal: false
 ---
 

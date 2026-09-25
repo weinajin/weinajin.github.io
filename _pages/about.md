@@ -9,8 +9,8 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <a href="mailto:weinaj@sfu.ca">Email: weinaj@sfu.ca</a>
-    
+    Email: <a href="mailto:weinaj@sfu.ca">weinaj@sfu.ca</a>
+    <br>
     <a href="https://scholar.google.com/citations?user=uajp-AkAAAAJ">Google Scholar</a>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -19,7 +19,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 1 # leave blank to include all the news in the `_news` folder
+  limit: 2 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
   enabled: true
@@ -27,7 +27,7 @@ latest_posts:
   limit: 2 # leave blank to include all the blog posts
 ---
 
-I'm a medical AI researcher. I use a clinical user-centered, critical approach to develop explainable AI for medical image analysis. I am supervised by [Prof. Ghassan Hamarneh](https://www.medicalimageanalysis.com/) in the Medical Image Analysis Lab, School of Computing Science, Simon Fraser University (SFU). Previously, I received my Doctor of Medicine (MD) degree from Peking University, and underwent residency training in Neurology. I also received research training in human-computer interaction at the School of Interactive Arts and Technology at SFU.
+I am a medical AI researcher. I use a clinical user-centered, critical approach to develop explainable AI for medical image analysis. I am supervised by [Prof. Ghassan Hamarneh](https://www.medicalimageanalysis.com/) in the Medical Image Analysis Lab, School of Computing Science, Simon Fraser University (SFU). Previously, I received my Doctor of Medicine (MD) degree from Peking University, and underwent residency training in Neurology. I also received research training in human-computer interaction at the School of Interactive Arts and Technology at SFU.
 
 My research addresses this overarching question: 
 - How can we---both as the collective technical community and as the individual technical developers and researchers---develop explainable AI and medical image analysis techniques responsibly to genuinely benefit patients' healthcare and society?
