@@ -8,9 +8,9 @@ toc:
   sidebar: left
 ---
 
-# Academic Service
+## Academic Service
 
-## Women in MICCAI
+### Women in MICCAI
 I serve as a board member of the [Women in MICCAI (WiM)](https://miccai.org/group/women-in-miccai/) from 2023-2027.
 
 In my service for WiM, I have organized the following webinar events for the MICCAI community:
@@ -38,19 +38,19 @@ In my service for WiM, I have organized the following webinar events for the MIC
 
 
 
-## MICCAI Student Board
+### MICCAI Student Board
 
 I serve as a board member of the MICCAI Student Board (MSB)](https://miccai.org/group/miccai-student-board/) from 2023-2026.
 
 In my service for MSB, I have organized and (co-)hosted the following webinar events for the MICCAI community:
 - Coming soon
 
-## Workshop Organization
+### Workshop Organization
 
 I co-organized the following workshops at International Conference on Machine Learning (ICML):
 
 - [3rd Workshop on Interpretable Machine Learning in Healthcare (IMLH) at ICML 2023](https://sites.google.com/view/imlh2023/)
 - [2nd Workshop on Interpretable Machine Learning in Healthcare (IMLH) at ICML 2022](https://sites.google.com/view/imlh2022/)
 
-# Peer Review
+## Peer Review
 Coming soon
