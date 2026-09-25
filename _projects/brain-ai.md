@@ -3,7 +3,7 @@ layout: page
 title: Neurosurgeon User Study
 description: A clinical study with neurosurgeons to assess the clinical utility of AI and its explanation
 img: assets/img/publication_preview/brain_ai.png
-category: research
+category: User-Centered AI
 comments: true
 date:   2024-01-17
 importance: 2
