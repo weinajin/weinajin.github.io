@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Methods of Critical Technical Practice
-date: 2026-07-13 10:00:00
+date: 2026-05-04 10:00:00
 description: Methods of critical technical practice.
 tags: research
 permalink: /ctp_method/
@@ -24,8 +24,6 @@ The outcome format can be tutorials, courses, reports, checklists, etc. in both 
 ---
 
 ## A preliminary method of conducting critical technical practice 
-
-By Weina Jin, 2026-05-04
 
 I provide a preliminary method based on my experience in conducting critical technical practice for three years. The results include the following research papers:
 

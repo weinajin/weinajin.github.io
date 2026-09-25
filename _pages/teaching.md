@@ -2,14 +2,27 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Teaching and mentoring.
 nav: true
 nav_order: 3
 calendar: true
 ---
 
-This page displays a collection of courses with detailed schedules, materials, and resources. You can organize your courses by years, terms, or topics.
+# Teaching and Mentoring Statement
 
-{% include calendar.liquid calendar_id='test@gmail.com' timezone='Asia/Shanghai' %}
 
-{% include courses.liquid %}
+# Teaching
+
+2026-09-24 Guest lecture on "Critical Research and Critical Technical Practice" in Prof. Nicholas Vincent's
+[CMPT 700 Technical Writing and Research Communication](https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/700.html).
+
+
+
+
+# Mentoring
+
+In fall 2026, I mentor two undergraduate students in the [SFU Explore Computing Science Research
+Program](https://sfu.instructure.com/courses/15302) on a project titled "Clinical User-Centered Explainable AI for Medical Image Analysis".
+
+In summer 2026, I mentored three undergraduate students, two of them are in the [SFU Explore Computing Science Research
+Program](https://sfu.instructure.com/courses/15302) on a project titled "Clinical User-Centered Explainable AI for Medical Image Analysis".
