@@ -1,18 +1,16 @@
 ---
 layout: post
-title:  A friendly introduction to Convolutional in CNN
-date:   2018-08-05 10:00:00
+title: A friendly introduction to Convolutional in CNN
+date: 2018-08-05 10:00:00
 comments: true
 description: Convolution is one of the most mysterious words for a novice deep learner. It is just a fancy operation of the weighted sum.
 tags: technical
 permalink: /intro-conv
 ---
 
+[Notebook version](https://github.com/weinajin/ml_notes/blob/master/friendly_intro_to_convolution.ipynb)
 
-[Notebook version]( https://github.com/weinajin/ml_notes/blob/master/friendly_intro_to_convolution.ipynb)
-
-
-# A friendly introduction to *convolution* in CNN
+# A friendly introduction to _convolution_ in CNN
 
 "Convolution" is one of the most mysterious words for a novice deep learner. The first time when I opened [wikipedia on convolution](https://en.wikipedia.org/wiki/Convolution) and tried to make sense, I just got dizzy and lost. After a long time mingling with CNN and a bit with signal processing, I finally figure it out a little better. In my current understanding,
 
@@ -20,7 +18,7 @@ permalink: /intro-conv
 
 And here is the whole story:
 
-## 1. A very simple version of *weighted sum*
+## 1. A very simple version of _weighted sum_
 
 To see what is a weighted sum, Let's begin with the following expression, which may remind you of algebra in high school:
 
@@ -28,14 +26,13 @@ $$ y = w_1 \times x_1 + w_2 \times x_2 $$
 
 Pretty easy, right? We give $$x_1$$ and $$x_2$$ different weights of $$w_1$$ and $$w_2$$, because in our mind, we value $$x_1$$ and $$x_2$$ differently. For example, if you want to calculate the final course score from the midterm and final exam, the weights reflect how important you think each exam is.
 
-**Weights reflect how important we think a variable is numerically**, in a numerical perspective. Here, by injecting our thoughts, we are bringing in new perspectives into the original *flat* world (since the original weights are : $$ w_1 = 1 $$, $$ w_2 = 1 $$).
+**Weights reflect how important we think a variable is numerically**, in a numerical perspective. Here, by injecting our thoughts, we are bringing in new perspectives into the original _flat_ world (since the original weights are : $$ w_1 = 1 $$, $$ w_2 = 1 $$).
 
 And **sum is just an operation that condenses our deliberate thoughts on each variable into one final value** (like the final course score).
 
 <!--- As a side note, I'd like to regard it as the projection from high dimensional space (where all x_i reside) to 1 dimension (y is just a dot). But if you don't understand this paragraph, you can go ahead to ignore it. It will have little to do with the whole story.) --->
 
-
-## 2. The *weighted sum* with more $$x$$
+## 2. The _weighted sum_ with more $$x$$
 
 If we have more than two, say $$n$$ number of $$x$$, then the above formula can be written as:
 
@@ -43,9 +40,9 @@ $$ y = w_1 \times x_1 + w_2 \times x_2 + w_3 \times x_3 + ... + w_n \times x_n $
 
 Or, a more condensed version:
 
-$$ y = \sum^n_{i=1} w_i \times x_i $$
+$$ y = \sum^n\_{i=1} w_i \times x_i $$
 
-This works totally well when the number of $$x_i$$  is small. But what if the number of $$x_i$$ becomes large, say $$1,000,000$$, or even infinite, how do we assign each $$x_i$$ a weight wisely?
+This works totally well when the number of $$x_i$$ is small. But what if the number of $$x_i$$ becomes large, say $$1,000,000$$, or even infinite, how do we assign each $$x_i$$ a weight wisely?
 
 Here is the trick:
 
@@ -57,23 +54,20 @@ To generate a sequence of numbers $$\vec{y}$$ out of $$\vec{x}$$, there are some
 
 ### 2.1 Same weight for all $$x_i$$
 
-
 The easiest approach is to assign a signal weight $$w$$ to all $$x_i$$. It is equal to $$\vec{y} = w \times \vec{x} $$, where $$w$$ is a single number.
 
 We will evaluate this approach from the following two aspects:
 
-|         | Same weight for all $$x_i$$ |
-|:---|:---|
-| $$w$$ is simple and compact          | Yes |
-| $$w$$ adds information on how we value different value in $$\vec{x}$$     | No      |
-
+|                                                                       | Same weight for all $$x_i$$ |
+| :-------------------------------------------------------------------- | :-------------------------- |
+| $$w$$ is simple and compact                                           | Yes                         |
+| $$w$$ adds information on how we value different value in $$\vec{x}$$ | No                          |
 
 $$w$$ is quite simple: it is just a number. However, it adds little information from "our perspective". It only scales the original $$\vec{x}$$, and could not differentiate the fine details inside $$\vec{x}$$.
 
 <!--to treating each $$x_i$$ equally, therefore doesn't add our additional thoughts on different characters in $$x$$. -->
 
 Here is an example:
-
 
 ```python
 import numpy as np
@@ -86,12 +80,9 @@ plt.ylabel("The value of x")
 plt.show()
 ```
 
-
-{% include figure.liquid loading="eager" path="assets/img/blog_img/friendly_intro_to_convolution_1_0.png" class="img-fluid z-depth-1" %}
-
+![png](/images/friendly_intro_to_convolution_files/friendly_intro_to_convolution_1_0.png)
 
 We draw $$\vec{x}$$ as a sequence of numbers. Now if we multiply each $$x_i$$ with a weight, say $$2$$, then the output $$\vec{y} $$ will look like this:
-
 
 ```python
 plt.plot(x)
@@ -105,12 +96,11 @@ plt.ylabel("Value")
 plt.show()
 ```
 
-{% include figure.liquid loading="eager" path="assets/img/blog_img/friendly_intro_to_convolution_3_0.png" class="img-fluid z-depth-1" %}
-
+![png](/images/friendly_intro_to_convolution_files/friendly_intro_to_convolution_3_0.png)
 
 As you can see, the green line $$\vec{y} $$ has exactly the same "pattern", i.e.: it has peaks and valleys in the same position as in $$\vec{x}$$. It stretched $$\vec{x}$$ but that's it.
 
-You may notice I actually draw 3 lines. The graph only shows two lines because the lines of "multiply by 2" and "convolve with 2" are overlapped. I'll talk about it later. But now you see we begin to touch *convolution* a little bit after a long reading!
+You may notice I actually draw 3 lines. The graph only shows two lines because the lines of "multiply by 2" and "convolve with 2" are overlapped. I'll talk about it later. But now you see we begin to touch _convolution_ a little bit after a long reading!
 
 ### 2.2 Distinct weight for each $$x_i$$
 
@@ -121,7 +111,6 @@ $$ y_i = w_i \times x_i $$
 Now $$\vec{w}$$ becomes a sequence of numbers with the same length as $$\vec{x}$$. The weight $$\vec{w}$$ reflects our thoughts on each $$x_i$$ in much finer details. This is similar to what we do in the first example of calculating the final score of a course, but here we didn't apply the summation.
 
 To take another example, here we assign the weight as a sequence of numbers on a straight line, as the orange line shown in the picture. When we multiply each $$w_i$$ with $$x_i$$, we get the resulting $$\vec{y}$$ as the green line. Even with a very simple form of $$\vec{w}$$, the resulting $$\vec{y}$$ can do a very good job in incorporating the information from both $$\vec{w}$$ and $$\vec{x}$$.
-
 
 ```python
 x = np.sin(np.linspace(0, 20*np.pi, 400))
@@ -135,16 +124,14 @@ plt.ylabel("Value")
 plt.show()
 ```
 
+![png](/images/friendly_intro_to_convolution_files/friendly_intro_to_convolution_6_0.png)
 
-{% include figure.liquid loading="eager" path="assets/img/blog_img/friendly_intro_to_convolution_6_0.png" class="img-fluid z-depth-1" %}
+This approach has some real-world applications, such as [Amplitude modulation](https://en.wikipedia.org/wiki/Amplitude_modulation). Depending on the specific problems, if we want to apply this approach to identifying peaks and valleys, it will become unpractical, since we will need to deliberately design all the weight sequence according to all the domain of $$\vec{x}$$. It is also redundant and costly to express and store $$\vec{w}$$.
 
-
-This approach has some real-world applications, such as [Amplitude modulation](https://en.wikipedia.org/wiki/Amplitude_modulation). Depending on the specific problems, if we want to apply this approach to identifying peaks and valleys, it will become unpractical, since we will need to deliberately design all the weight sequence according to all the domain of $$\vec{x}$$. It is also redundant and costly to express and store $$\vec{w}$$.  
-
-|         | Same weight for all $$x_i$$ | Distinct weight for each $$x_i$$   |
-|:-------------|:-------------:|:-----:|:-----:|
-| $$w$$ is simple and compact          | Yes | No |
-| $$w$$ adds information on how we value different value in $$\vec{x}$$     | No      |  Yes |
+|                                                                       | Same weight for all $$x_i$$ | Distinct weight for each $$x_i$$ |
+| :-------------------------------------------------------------------- | :-------------------------: | :------------------------------: |
+| $$w$$ is simple and compact                                           |             Yes             |                No                |
+| $$w$$ adds information on how we value different value in $$\vec{x}$$ |             No              |               Yes                |
 
 ### 2.3 Repetitive weight
 
@@ -152,12 +139,10 @@ An improvement to the above approach, is to express $$\vec{w}$$ in a repetitive 
 
 In this way, the $$\vec{w}$$ is expressed by a short sequence of numbers, meanwhile still carry out our thoughts over the raw data $$\vec{x}$$.
 
-|         | Same weight for all $$x_i$$ | Distinct weight for each $$x_i$$   |Repetitive weight|
-|:-------------|:-------------:|:-----:|:-----:|
-| $$w$$ is simple and compact          | Yes | No | Yes|
-| $$w$$ adds information on how we value different value in $$\vec{x}$$     | No      |  Yes | Yes|
-
-
+|                                                                       | Same weight for all $$x_i$$ | Distinct weight for each $$x_i$$ | Repetitive weight |
+| :-------------------------------------------------------------------- | :-------------------------: | :------------------------------: | :---------------: |
+| $$w$$ is simple and compact                                           |             Yes             |                No                |        Yes        |
+| $$w$$ adds information on how we value different value in $$\vec{x}$$ |             No              |               Yes                |        Yes        |
 
 ```python
 n = 50
@@ -172,9 +157,7 @@ plt.ylabel("Value")
 plt.show()
 ```
 
-
-{% include figure.liquid loading="eager" path="assets/img/blog_img/friendly_intro_to_convolution_9_0.png" class="img-fluid z-depth-1" %}
-
+![png](/images/friendly_intro_to_convolution_files/friendly_intro_to_convolution_9_0.png)
 
 In this example, we repeat $$\vec{w}$$ four times. We notice that $$\vec{y}$$ (in green) has the largest peaks when the peaks of $$\vec{w}$$ overlap with the one of $$\vec{x}$$.
 
@@ -198,19 +181,17 @@ we **sum** over the sequence of $$\vec{w}$$, right after multiplying $$\vec{w}$$
 
 The resulting output from the sum will be a single number $$y_n$$:
 
-$$ y_n = \sum_{i=0}^{|w|} w_i \times x_{n + i} $$
+$$ y*n = \sum*{i=0}^{|w|} w*i \times x*{n + i} $$
 
 where $$n$$ is the start position of $$\vec{w}$$ on $$\vec{x}$$.
 
-After calculating all the $$y_n$$ along the sequence of $$\vec{x}$$, we just complete the convolution operation.  
+After calculating all the $$y_n$$ along the sequence of $$\vec{x}$$, we just complete the convolution operation.
 
-$$ y(n) = (x * w)(n) = \sum_{i=0}^{|w|} w_i \times x_{n + i} $$
+$$ y(n) = (x \* w)(n) = \sum*{i=0}^{|w|} w_i \times x*{n + i} $$
 
-
-where the $$ * $$ symbol denotes the convolution operation, and $$y$$ is denoted as a function of the sequence $$n$$.
+where the $$ \* $$ symbol denotes the convolution operation, and $$y$$ is denoted as a function of the sequence $$n$$.
 
 Remember in the beginning, I mentioned **sum is an operation that condenses our deliberate thoughts on each variable into one final value**. Instead of summing over the whole sequence as above, the convolution sum over the area covered by the weight size. In this way, the sum operation won't lose much information, and concisely represents the combined information from $$w$$ and $$x$$ patch. Moreover, since the weighted sum is actually the dot product of $$w$$ and the local $$x$$ patch, it is a similarity measure of the two, where a larger weighted sum represents a detected pattern on $$\vec{x}$$ that corresponding to the pattern of $$\vec{w}$$. Thus, we can design weights with the patterns we want and use them to detect if similar patterns exist on the target data $$\vec{x}$$.
-
 
 The formula is similar to the one in [Discrete convolution in Wikipedia](https://en.wikipedia.org/wiki/Convolution#Discrete_convolution). Except for that in the wikipedia's formula, it is $$x_{n - i}$$ instead of $$x_{n + i}$$. The minus sign used to confused me a lot, until I found out when we talk about **convolution** in CNN, we actually talk about **cross-correlation**, where it uses $$x_{n + i}$$. The **convolution** in math uses $$x_{n - i}$$, where the weight is flipped. The difference only matters when writing proofs, but as regarded to CNN implementation, people just use $$x_{n + i}$$ and call it **convolution**. ([Ref: Deep Learning book p. 324](https://www.deeplearningbook.org/contents/convnets.html))
 
@@ -218,9 +199,7 @@ That's almost the whole story of **convolution**.
 
 But what does it to do with convolution and image, you may ask. The above story tells us how to calculate convolution with 1-dimensional data. The convolution in CNN for images is calculated exactly in the same way, we just extend the data and weights to 2 dimensions.
 
-
-$$ Y(m, n) = (X * W)(m, n) = \sum_{i} \sum_{j} W_{i , j} \times X_{m + i, n + j} $$
-
+$$ Y(m, n) = (X \* W)(m, n) = \sum*{i} \sum*{j} W*{i , j} \times X*{m + i, n + j} $$
 
 That's it!
 
@@ -230,4 +209,4 @@ My next notebook will introduce the implementation and a variety of convolutions
 
 ---
 
-This article reflects my current understanding of *convolution* in CNN. Please let me know if you identified any errors or have any questions: [@weina_jin](https://twitter.com/weina_jin) or by [creating an issue](https://github.com/weinajin/ml_notes/issues/new). Thanks for your reading &#x1F60E;
+This article reflects my current understanding of _convolution_ in CNN. Please let me know if you identified any errors or have any questions: [@weina_jin](https://twitter.com/weina_jin) or by [creating an issue](https://github.com/weinajin/ml_notes/issues/new). Thanks for your reading &#x1F60E;

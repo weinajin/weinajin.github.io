@@ -3,7 +3,7 @@ layout: page
 title: Clinical User-Centered Explainable AI for Medical Image Analysis: A Critical Technical Practice
 description: Weina Jin's PhD Thesis
 #img: 
-category: research
+category: Explainable AI
 importance: 1
 related_publications: true
 permalink: /phd_thesis/
