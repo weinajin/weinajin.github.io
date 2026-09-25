@@ -80,7 +80,7 @@ plt.ylabel("The value of x")
 plt.show()
 ```
 
-![png](/images/friendly_intro_to_convolution_files/friendly_intro_to_convolution_1_0.png)
+{% include figure.liquid loading="eager" path="assets/img/blog_img/friendly_intro_to_convolution_1_0.png" class="img-fluid z-depth-1" %}
 
 We draw $$\vec{x}$$ as a sequence of numbers. Now if we multiply each $$x_i$$ with a weight, say $$2$$, then the output $$\vec{y} $$ will look like this:
 
@@ -96,7 +96,7 @@ plt.ylabel("Value")
 plt.show()
 ```
 
-![png](/images/friendly_intro_to_convolution_files/friendly_intro_to_convolution_3_0.png)
+{% include figure.liquid loading="eager" path="assets/img/blog_img/friendly_intro_to_convolution_3_0.png" class="img-fluid z-depth-1" %}
 
 As you can see, the green line $$\vec{y} $$ has exactly the same "pattern", i.e.: it has peaks and valleys in the same position as in $$\vec{x}$$. It stretched $$\vec{x}$$ but that's it.
 
@@ -124,7 +124,7 @@ plt.ylabel("Value")
 plt.show()
 ```
 
-![png](/images/friendly_intro_to_convolution_files/friendly_intro_to_convolution_6_0.png)
+{% include figure.liquid loading="eager" path="assets/img/blog_img/friendly_intro_to_convolution_6_0.png" class="img-fluid z-depth-1" %}
 
 This approach has some real-world applications, such as [Amplitude modulation](https://en.wikipedia.org/wiki/Amplitude_modulation). Depending on the specific problems, if we want to apply this approach to identifying peaks and valleys, it will become unpractical, since we will need to deliberately design all the weight sequence according to all the domain of $$\vec{x}$$. It is also redundant and costly to express and store $$\vec{w}$$.
 
@@ -157,7 +157,8 @@ plt.ylabel("Value")
 plt.show()
 ```
 
-![png](/images/friendly_intro_to_convolution_files/friendly_intro_to_convolution_9_0.png)
+{% include figure.liquid loading="eager" path="assets/img/blog_img/friendly_intro_to_convolution_9_0.png" class="img-fluid z-depth-1" %}
+
 
 In this example, we repeat $$\vec{w}$$ four times. We notice that $$\vec{y}$$ (in green) has the largest peaks when the peaks of $$\vec{w}$$ overlap with the one of $$\vec{x}$$.
 
