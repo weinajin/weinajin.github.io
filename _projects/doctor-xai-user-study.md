@@ -4,7 +4,7 @@ title: Physician User Study on Explainable AI
 description: A usability study to identify physicians’ needs and requirements for explainable AI
 img: assets/img/publication_preview/card_sorting.jpg
 importance: 5
-category: research
+category: User-Centered AI
 permalink: /doctor-ai.html
 
 ---

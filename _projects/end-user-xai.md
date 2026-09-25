@@ -4,7 +4,7 @@ title: EUCA
 description: The End-User-Centered Explainable AI Prototyping Framework
 img: assets/img/publication_preview/EUCA.png
 importance: 3
-category: research
+category: User-Centered AI
 permalink: /end-user-xai.html
 
 ---
