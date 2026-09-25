@@ -10,6 +10,9 @@ children:
   - title: divider
   - title: End-User-Centered Explainable AI Framework EUCA
     permalink: /euca/
+  - title: divider
+  - title: Feminist Epistemology and Medical Imaging
+    permalink: /epistemology/
 #  - title: divider
 #  - title: bookshelf
 #    permalink: /books/
