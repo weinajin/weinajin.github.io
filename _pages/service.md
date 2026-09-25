@@ -4,6 +4,8 @@ title: service
 permalink: /service/
 nav: true
 nav_order: 4
+toc:
+  sidebar: left
 ---
 
 # Academic Service
@@ -25,7 +27,7 @@ In my service for MSB, I have organized and (co-)hosted the following webinar ev
    - **Speaker:** Dr. Netta Avnon
    - **Date:** May 31, 2026
    - **Recording:** [YouTube Recording Link](https://www.youtube.com/watch?v=-uMVvZfo79Q)
-1. Bridging the Medical AI Implementation Gap
+1. From prototype to practice: Bridging the medical AI implementation gap
    - **Speaker:** Dr. Judy Gichoya
    - **Date:** April 23, 2026
    - **Recording:** [YouTube Recording Link](https://www.youtube.com/watch?v=zGOkDjMBu0Y)

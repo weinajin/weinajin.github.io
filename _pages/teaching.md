@@ -6,6 +6,8 @@ description: Teaching and mentoring.
 nav: true
 nav_order: 3
 calendar: true
+toc:
+  sidebar: left
 ---
 
 # Teaching and Mentoring Statement
