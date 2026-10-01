@@ -33,10 +33,12 @@ My research addresses this overarching question:
 - How can we---both as the collective technical community and as the individual technical developers and researchers---develop explainable AI and medical image analysis techniques responsibly to genuinely benefit patients' healthcare and society?
 
 My research focuses include:
-- Responsible Explainable/Interpretable AI 
-- Responsible Medical Image Analysis; Responsible Medical AI 
-- AI Justice and Ethics Operationalization; [Critical Technical Practice](https://critical-technical-practice.github.io/)
-- User-Centered AI; User-Centered Explainable AI
+- **XAI**: Responsible Explainable/Interpretable AI 
+- **Medical AI**: Responsible Medical Image Analysis; Responsible Medical AI 
+- **AI Ethics**: AI Justice and Ethics Operationalization; [Critical Technical Practice](https://critical-technical-practice.github.io/)
+- **HCI**: User-Centered AI; User-Centered Explainable AI; [Design Justice](https://mitpress.mit.edu/9780262043458/design-justice/); Human-Computer Interaction (HCI)
+
+The philosophical knowledge sources, worldviews, and values underpinning my research and technical practice are [feminist epistemology and philosophy of science](https://www.taylorfrancis.com/books/mono/10.4324/9781032693781/feminist-epistemology-philosophy-science-sharon-crasnow-kristen-intemann). I am also interested in science, technology, and society (STS), medical anthropology, and critical theory. 
 
 A 3-min video introduction of my PhD thesis: **Clinical User-Centered Explainable AI for Medical Image Analysis: A Critical Technical Practice**
 
