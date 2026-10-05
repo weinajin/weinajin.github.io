@@ -13,7 +13,7 @@ toc:
 ### Women in MICCAI
 I serve as a board member of the [Women in MICCAI (WiM)](https://miccai.org/group/women-in-miccai/) from 2023-2027.
 
-In my service for WiM, I have organized the following webinar events for the MICCAI community:
+In my service for WiM, I have organized and (co-)hosted the following webinar events for the MICCAI community:
 1. Medical AI and Mode of Coordinating Expertise in Stroke Care
    - **Speaker:** Dr. Netta Avnon
    - **Date:** May 31, 2026
@@ -40,7 +40,7 @@ In my service for WiM, I have organized the following webinar events for the MIC
 
 ### MICCAI Student Board
 
-I serve as a board member of the MICCAI Student Board (MSB)](https://miccai.org/group/miccai-student-board/) from 2023-2026.
+I serve as a board member of the [MICCAI Student Board (MSB)](https://miccai.org/group/miccai-student-board/) from 2023-2026.
 
 In my service for MSB, I have organized and (co-)hosted the following webinar events for the MICCAI community:
 - Coming soon

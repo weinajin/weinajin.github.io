@@ -24,7 +24,7 @@ announcements:
 latest_posts:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 2 # leave blank to include all the blog posts
+  limit: 3 # leave blank to include all the blog posts
 ---
 
 I am a medical AI researcher. I use a clinical user-centered, critical approach to develop explainable AI for medical image analysis. I am supervised by [Prof. Ghassan Hamarneh](https://www.medicalimageanalysis.com/) in the Medical Image Analysis Lab, School of Computing Science, Simon Fraser University (SFU). Previously, I received my Doctor of Medicine (MD) degree from Peking University, and underwent residency training in Neurology. I also received research training in human-computer interaction at the School of Interactive Arts and Technology at SFU.
