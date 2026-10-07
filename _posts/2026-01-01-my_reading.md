@@ -36,16 +36,19 @@ A growing list of books that I read and recommend.
 - Not Born Yesterday: The Science of Who We Trust and What We Believe. Hugo Mercier
 - Bad Beliefs: Why They Happen to Good People	
 
-## Social Justice, Sociology
+## Social Justice; Sociology
 - Cannibal Capitalism: How our System is Devouring Democracy, Care, and the Planet – and What We Can Do About It. Nancy Fraser
 - Design Justice.	Sasha Costanza-Chock
 - Feminism for the 99 Percent: A Manifesto.	Nancy Fraser
 - Think Like a Feminist: The Philosophy Behind the Revolution.	Carol Hay
+- Envisioning real utopias.	Erik Olin Wright	
+- How to Be an Anticapitalist in the Twenty-First Century. Erik Olin Wright
 - The Tyranny of Merit. Michael J. Sandel	
 - The Forest and the Trees.	Allan G. Johnson
 - The Gender Knot: Unraveling our Patriarchal Legacy.	Allan G. Johnson
 - The Utopia of Rules.	David Graeber
 - The Second Shift.	Arlie Russell Hochschild
+- Doughnut Economics.	Kate Raworth
 
 ## Miscellaneous
 - Invitation to Existential Psychology:  A Psychology for the Unique Human Being and Its Applications in Therapy.	Bo Jacobsen
@@ -53,6 +56,5 @@ A growing list of books that I read and recommend.
 - The slow professor:  challenging the culture of speed in the academy
 - The Art of Logic in an Illogical World.	Eugenia Cheng
 - Braiding Sweetgrass.	Robin Wall Kimmerer
-- Doughnut Economics.	Kate Raworth
 - The Mushroom at the End of the World.	Anna Lowenhaupt Tsing
 - Night Vision: Seeing Ourselves Through Dark Moods. Mariana Alessandri

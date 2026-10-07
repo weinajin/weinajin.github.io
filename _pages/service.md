@@ -10,6 +10,21 @@ toc:
 
 ## Academic Service
 
+### Workshop Organization
+
+I co-organized the following workshops at International Conference on Machine Learning (ICML):
+
+- [3rd Workshop on Interpretable Machine Learning in Healthcare (IMLH) at ICML 2023](https://sites.google.com/view/imlh2023/)
+- [2nd Workshop on Interpretable Machine Learning in Healthcare (IMLH) at ICML 2022](https://sites.google.com/view/imlh2022/)
+
+### Peer Review
+Coming soon
+
+### Working group and reading group organization
+- In 2026, I co-organized the [AI and Society Reading Group at Simon Fraser University (SFU)](https://nickmvincent.github.io/sfu-aias-rg/) with Prof. Nicholas Vincent. Students and faculties from the SFU community meet regularly to discuss research papers related to the societal implications of AI, AI ethics, and related issues.
+- In 2026, I organized the [Critical Technical Practice (CTP) working group at SFU](https://critical-technical-practice.github.io/working_group/wp_sessions/). The collective result from this working group is a 2-hour tutorial on critical research and critical technical practice in the context of embedding in a graduate-level introductory research course. You can find the tutorial materials in the [Tutorial page](https://critical-technical-practice.github.io/tutorial/CTP_for_technical/).
+
+## Community Service
 ### Women in MICCAI
 I serve as a board member of the [Women in MICCAI (WiM)](https://miccai.org/group/women-in-miccai/) from 2023-2027.
 
@@ -44,13 +59,3 @@ I serve as a board member of the [MICCAI Student Board (MSB)](https://miccai.org
 
 In my service for MSB, I have organized and (co-)hosted the following webinar events for the MICCAI community:
 - Coming soon
-
-### Workshop Organization
-
-I co-organized the following workshops at International Conference on Machine Learning (ICML):
-
-- [3rd Workshop on Interpretable Machine Learning in Healthcare (IMLH) at ICML 2023](https://sites.google.com/view/imlh2023/)
-- [2nd Workshop on Interpretable Machine Learning in Healthcare (IMLH) at ICML 2022](https://sites.google.com/view/imlh2022/)
-
-## Peer Review
-Coming soon
