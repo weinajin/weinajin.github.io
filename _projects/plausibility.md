@@ -18,4 +18,3 @@ permalink: /plausibility
 Video paper presentation of this paper (5-min):
 
 
-{% include figure.liquid loading="eager" path="assets/img/publication_preview/plausibility_poster.png" class="img-fluid z-depth-1" %}
