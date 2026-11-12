@@ -6,7 +6,7 @@ img: assets/img/publication_preview/brain_ai.png
 category: User-Centered AI
 comments: true
 date:   2024-01-17
-importance: 3
+importance: 4
 permalink: /brain-ai.html
 ---
 
