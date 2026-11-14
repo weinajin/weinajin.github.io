@@ -23,4 +23,3 @@ Poster for this paper:
 {% include figure.liquid loading="eager" path="assets/img/publication_preview/overreliance_poster.png" class="img-fluid z-depth-1" %}
 
 
-A related critical reflection of lessons learned from this project is detailed in this post: [Critical Technical Practice for Responsible Medical Image Analysis](https://weina.me/ctp_mia)
