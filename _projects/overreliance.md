@@ -2,7 +2,7 @@
 layout: page
 title: Accounting for Over-Reliance in AI-Assisted Performance Studies
 description: Overreliance
-#img: 
+img: assets/img/publication_preview/overreliance_poster.png
 category: User-Centered AI
 importance: 6
 related_publications: true

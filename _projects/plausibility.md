@@ -2,8 +2,7 @@
 layout: page
 title: Stop Using Plausibility as the Criterion for Explainable AI
 description: Responsible evaluation of XAI
-
-#img: 
+img: assets/img/publication_preview/xai_plausibility_poster.png
 category: Explainable AI
 importance: 3
 related_publications: true
@@ -17,4 +16,6 @@ permalink: /plausibility
 
 Video paper presentation of this paper (5-min):
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hq9Uc3dMz28?si=yxhKocMNzGdxnbYI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+{% include figure.liquid loading="eager" path="assets/img/publication_preview/xai_plausibility_poster.png" class="img-fluid z-depth-1" %}
