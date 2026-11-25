@@ -13,14 +13,27 @@ toc:
 
 # Teaching
 
-## Medical Image Analysis
+## Medical image analysis, medical AI
+- Teaching Assistant. CMPT 419: Special Topics in AI: Biomedical Image Computing. 2026 Spring.Instructor: Ghassan Hamarneh
+  - Gave a guest lecture on "Clinical User-Centered Explainable AI (XAI) for Medical Image Analysis"
+- Teaching Assistant. CMPT 340: Biomedical Computing. 2024 Spring, Fall, 2023 Fall. Instructor: Ghassan Hamarneh
+- Teaching Assistant} IAT 481: Health Technologies. 2018 Fall. Instructor: Diane Gromala
 
 
-## Critical Research and Critical Technical Practice: A Tutorial
+## AI, computer vision, and explainable AI
+- \noindent\years{2024 Spring}Gave a guest lecture on \textit{Explainable Artificial Intelligence Methods for Computer Vision Tasks} for EECE 570: Fundamentals of Visual Computing at UBC. Instructor: Xiaoxiao Li
+  - [Video content](https://youtu.be/8TTJgNiMoRw?si=On2bCG7QsmP3WEY5)
+
+
+## Critical research and critical technical practice, AI ethics, responsible computing
 - Co-teach a 2-hour workshop with three other [Critical Technical Practice working group](https://critical-technical-practice.github.io/working_group/wp_sessions/) members at [CMPT 700 Technical Writing and Research Communication](https://www.sfu.ca/students/calendar/2026/fall/courses/cmpt/700.html). Instructor: Nicholas Vincent. 
-  - [Slides](/assets/pdf/20260924_CMPT700_GuestLecture_Critical research and critical technical practice)
-- Co-teach a 1-hour workshop with two other [Critical Technical Practice working group](https://critical-technical-practice.github.io/working_group/wp_sessions/) members on CMPT 891: Thesis Graduate Student Orientation. Instructor: Angelica Lim
+  - [Slides](/assets/pdf/20260924_CMPT700_GuestLecture_Critical research and critical technical practice.pdf)
+- Co-teach a 1-hour workshop with two other [Critical Technical Practice working group](https://critical-technical-practice.github.io/working_group/wp_sessions/) members at CMPT 891: Thesis Graduate Student Orientation. Instructor: Angelica Lim
   - [Slides](/assets/pdf/20261113_CMPT891_Critical research and critical technical practice.pdf)
+- Co-teach a 1.5-hour workshop with two other [Critical Technical Practice working group](https://critical-technical-practice.github.io/working_group/wp_sessions/) members at [SFU Explore Computing Science Research reading group](https://canvas.sfu.ca/courses/18625)
+- Guest lecturer on "Critical Technical Practice and Critical Communication: Cases from the Development of Explainable AI (XAI) for Medical Image Application" for CMPT 105W: Social Issues and Communication Strategies in Computing Science. Spring and Fall 2026. Instructor: Diana Cukierman
+- Teaching Assistant. IAT 803: Science, Technology, and Society. 2019 Spring. Instructor: Diane Gromala
+
 
 ## Human-computer interaction
 - Teaching Assistant. 2026 Summer. CMPT 236: Introduction to Human-Centered Computing. Instructor: Victor Cheung
