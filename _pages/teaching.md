@@ -33,6 +33,7 @@ toc:
 - Co-teach a 1.5-hour workshop with two other [Critical Technical Practice working group](https://critical-technical-practice.github.io/working_group/wp_sessions/) members at [SFU Explore Computing Science Research reading group](https://canvas.sfu.ca/courses/18625). 2026 Fall. Organizer: 
 Ouldooz Baghban Karimi, Ghazaleh Bakhtiariazad, and Gizem Kurekci Polat
 - Guest lecturer on "Critical Technical Practice and Critical Communication: Cases from the Development of Explainable AI (XAI) for Medical Image Application" for CMPT 105W: Social Issues and Communication Strategies in Computing Science. Spring and Fall 2026. Instructor: Diana Cukierman
+  - [Slides](/assets/pdf/20260402 CMPT 105W Critical Technical Practice and Critical Communication A case from XAI in MIA.pdf)
 - Teaching Assistant. IAT 803: Science, Technology, and Society. 2019 Spring. Instructor: Diane Gromala
 
 
