@@ -20,8 +20,8 @@ toc:
 - Teaching Assistant} IAT 481: Health Technologies. 2018 Fall. Instructor: Diane Gromala
 
 
-## AI, computer vision, and explainable AI
-- \noindent\years{2024 Spring}Gave a guest lecture on \textit{Explainable Artificial Intelligence Methods for Computer Vision Tasks} for EECE 570: Fundamentals of Visual Computing at UBC. Instructor: Xiaoxiao Li
+## AI, computer vision, explainable AI
+- Guest lecturer on "Explainable Artificial Intelligence Methods for Computer Vision Tasks" for EECE 570: Fundamentals of Visual Computing at UBC. 2024 Spring. Instructor: Xiaoxiao Li
   - [Video content](https://youtu.be/8TTJgNiMoRw?si=On2bCG7QsmP3WEY5)
 
 
